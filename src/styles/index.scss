@@ -1,18 +1,18 @@
-
 //fonts
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&family=Oleo+Script:wght@400;700&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
 //abstracts
 @import "abstracts/_variables.scss";
 @import "base/_typography.scss";
 @import "base/_base.scss";
+@import "template/_grid.scss";
 @import "template/_template.scss";
+
 //components
 @import "components/_nav.scss";
 @import "components/_footer.scss";
 @import "components/_button.scss";
 //pages
-@import "../pages/home/Home.scss";
-@import "../pages/category/CategoryPage.scss";
-@import "../pages/ProductDetails/ProductDetails.scss";
-@import "../pages/contact/Contact.scss";
+@import "../pages/home/_home.scss";
+@import "../pages/category/_categoryPage.scss";
+@import "../pages/ProductDetails/_productDetails.scss";
+@import "../pages/contact/_contact.scss";
