@@ -1,9 +1,12 @@
-import React from 'react'
+// npm packages
+import React from "react";
 
-export default function Button() {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+const Button = ({ onClick, children, theme }) => {
+	return (
+		<button className={"btn-" + theme} type="button" onClick={onClick}>
+			{children}
+		</button>
+	);
+};
+
+export default Button;

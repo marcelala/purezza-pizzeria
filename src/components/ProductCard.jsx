@@ -1,16 +1,20 @@
 import React from "react";
+import { useHistory,useLocation } from "react-router-dom";
 
-export default function ProductCard({ product,onClick }) {
-	const { name, shortDescription, img } = product;
+export default function ProductCard({ product}) {
+	const {id, name, shortDescription, img } = product;
 	const imageSrc = require(`../assets/img/products/${img}`).default;
+	const history = useHistory();
+	const category = useLocation().pathname.toLowerCase();
+	const url = `../${category}/${id}`;
 	return (
 		<li>
 			<article>
-				<button className="product-card" onClick>
+				<div onClick={() => history.push(url)}>
 					<img className="product-img" src={imageSrc} alt="delicious food" />
 					<h2 className="product-name">{name}</h2>
 					<p className="category-name">{shortDescription}</p>
-				</button>
+				</div>
 			</article>
 		</li>
 	);

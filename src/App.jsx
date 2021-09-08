@@ -20,7 +20,7 @@ export default function App() {
 						exact path="/:category/"
 						component={ CategoryPage}
 					/>
-					<Route exact path="/:category/:id/:products/:name" component={ProductDetails} />
+					<Route path="/:category/:id" exact component={ProductDetails} />
 					<Route exact path="/contact" component={Contact} />
 				</Switch>
 				<Footer />
