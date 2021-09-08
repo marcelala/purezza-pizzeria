@@ -8,6 +8,7 @@ import ProductDetails from "./pages/productDetails/ProductDetails";
 import Contact from "./pages/contact/Contact";
 import Footer from "./components/Footer";
 
+
 export default function App() {
 	return (
 		<BrowserRouter>
@@ -15,9 +16,12 @@ export default function App() {
 				<Nav />
 				<Switch>
 					<Route path="/" exact component={Home} />
-					<Route path="/:categoryName" component={CategoryPage} />
-					<Route path="/:categoryName/:name" component={ProductDetails} />
-  					<Route path="/contact" component={Contact} />
+					<Route
+						exact path="/:category/"
+						component={ CategoryPage}
+					/>
+					<Route exact path="/:category/:id/:products/:name" component={ProductDetails} />
+					<Route exact path="/contact" component={Contact} />
 				</Switch>
 				<Footer />
 			</div>

@@ -1,11 +1,10 @@
-import { products } from "../data/productData";
 import Category from "./Category";
 
-export default function Categories() {
+export default function Categories({data}) {
 	return (
-		<div className="projects-list">
-			{products.map((category) => (
-				<Category key={category.index} category={category} />
+		<div className="categories-container">
+			{data.map((category) => (
+				<Category key={category.id} category={category} />
 			))}
 		</div>
 	);

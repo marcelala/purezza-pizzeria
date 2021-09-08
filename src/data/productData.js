@@ -1,5 +1,6 @@
-export const products = [
+export const productsData = [
 	{
+		id: "cat-1",
 		categoryTitle: "Pizzas",
 		subtitle: "Planet Saving",
 		img: "pizzas.png",
@@ -17,10 +18,10 @@ export const products = [
 				ingredientList: [
 					{
 						ingredient: "pizza",
-						icon: "",
+						icon: "fa-pizza",
 					},
 				],
-				nutritionalInfo: [],
+				nutritionalInfo: ["very nutritious"],
 			},
 			{
 				id: "2-pizza",
@@ -33,10 +34,10 @@ export const products = [
 				ingredientList: [
 					{
 						ingredient: "pizza",
-						icon: "",
+						icon: "fa-pizza",
 					},
 				],
-				nutritionalInfo: [],
+				nutritionalInfo: ["very nutritious"],
 			},
 			{
 				id: "3-pizza",
@@ -49,10 +50,10 @@ export const products = [
 				ingredientList: [
 					{
 						ingredient: "pizza",
-						icon: "",
+						icon: "fa-pizza",
 					},
 				],
-				nutritionalInfo: [],
+				nutritionalInfo: ["very nutritious"],
 			},
 			{
 				id: "4-pizza",
@@ -65,18 +66,20 @@ export const products = [
 				ingredientList: [
 					{
 						ingredient: "pizza",
-						icon: "",
+						icon: "fa-pizza",
 					},
 				],
-				nutritionalInfo: [],
+				nutritionalInfo: ["very nutritious"],
 			},
 		],
 	},
 	{
+		id: "cat-2",
 		categoryTitle: "Desserts",
 		subtitle: "Inclusive",
 		img: "desserts.png",
-		description: "",
+		description:
+			"In a nutshell, we think that everyone should be able to enjoy great desserts regardless of allergies and dietary restrictions.That means no more nutshells, and it also means ensuring plentiful gluten free options.",
 		products: [
 			{
 				id: "1-dessert",
@@ -89,10 +92,10 @@ export const products = [
 				ingredientList: [
 					{
 						ingredient: "salted caramel, chocolate, oat flour",
-						icon: "",
+						icon: "fa-pizza",
 					},
 				],
-				nutritionalInfo: [],
+				nutritionalInfo: ["very nutritious"],
 			},
 			{
 				id: "2-dessert",
@@ -103,11 +106,11 @@ export const products = [
 					"Chocolate pizza covered in our creamy homemade sunflower seed chocolate spread, topped with white chocolate crumble and a scoop of ice cream.",
 				ingredientList: [
 					{
-						ingredient: "",
-						icon: "",
+						ingredient: "fa-pizza",
+						icon: "fa-pizza",
 					},
 				],
-				nutritionalInfo: [],
+				nutritionalInfo: ["very nutritious"],
 			},
 			{
 				id: "3-dessert",
@@ -119,47 +122,49 @@ export const products = [
 					"Delicate lemon infused cheesecake with a mango coulis.",
 				ingredientList: [
 					{
-						ingredient: "",
-						icon: "",
+						ingredient: "fa-pizza",
+						icon: "fa-pizza",
 					},
 				],
-				nutritionalInfo: [],
+				nutritionalInfo: ["very nutritious"],
 			},
 			{
 				id: "4-dessert",
 				img: "dessert-4.png",
 				name: "GELATO",
-				shortDescription: "",
-				fullDescription: "",
+				shortDescription: "gelato",
+				fullDescription: "gelato",
 				ingredientList: [
 					{
-						ingredient: "",
-						icon: "",
+						ingredient: "gelato",
+						icon: "gelato",
 					},
 				],
-				nutritionalInfo: [],
+				nutritionalInfo: ["very nutritious"],
 			},
 		],
 	},
 	{
+		id: "cat-3",
 		categoryTitle: "Drinks",
 		subtitle: "Classic cuisine inovated",
 		img: "drinks.png",
-		description: "",
+		description:
+			"Our food is plant-based, mostly organic and local.From unique Kombucha, to the frutiest of fruity juices and smoothies. If you are feeling a little more jolly we do also offer an extensive selection of local brews of different sorts",
 		products: [
 			{
 				id: "1-drink",
 				img: "drink-1.png",
 				name: "Lemony Lemonade",
-				shortDescription: "",
-				fullDescription: "",
+				shortDescription: "lemonade",
+				fullDescription: "lemons or limes",
 				ingredientList: [
 					{
-						ingredient: "",
-						icon: "",
+						ingredient: "lemons or limes",
+						icon: "lemon",
 					},
 				],
-				nutritionalInfo: [],
+				nutritionalInfo: ["very nutritious"],
 			},
 			{
 				id: "2-drink",
@@ -169,39 +174,39 @@ export const products = [
 				fullDescription: "",
 				ingredientList: [
 					{
-						ingredient: "",
-						icon: "",
+						ingredient: "carrots, oranges",
+						icon: "carrot",
 					},
 				],
-				nutritionalInfo: [],
+				nutritionalInfo: ["very nutritious"],
 			},
 			{
 				id: "3-drink",
 				img: "drink-3.png",
 				name: "Ginger & Lime Kombucha",
-				shortDescription: "",
-				fullDescription: "",
+				shortDescription: "kombucha stuff",
+				fullDescription: "carbonated bubbles",
 				ingredientList: [
 					{
-						ingredient: "",
-						icon: "",
+						ingredient: "kombucha",
+						icon: "drink",
 					},
 				],
-				nutritionalInfo: [],
+				nutritionalInfo: ["very nutritious"],
 			},
 			{
 				id: "4-drink",
 				img: "drink-4.png",
 				name: "Daily Greens",
 				shortDescription: "Cold pressed juice",
-				fullDescription: "",
+				fullDescription: "all the greens we can find",
 				ingredientList: [
 					{
-						ingredient: "",
-						icon: "",
+						ingredient: "spinach, apples,kale",
+						icon: "spinach",
 					},
 				],
-				nutritionalInfo: [],
+				nutritionalInfo: ["very nutritious"],
 			},
 		],
 	},
