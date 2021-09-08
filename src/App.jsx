@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Switch, Route } from "react-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 //project files
 import Nav from "./components/Nav";
 import Home from "./pages/home/Home";
@@ -8,21 +8,23 @@ import ProductDetails from "./pages/productDetails/ProductDetails";
 import Contact from "./pages/contact/Contact";
 import Footer from "./components/Footer";
 
-function App() {
-  return (
+
+export default function App() {
+	return (
 		<BrowserRouter>
 			<div className="App">
 				<Nav />
 				<Switch>
 					<Route path="/" exact component={Home} />
-					<Route path="/category-page" exact component={CategoryPage} />
-					<Route path="/product-details" exact component={ProductDetails} />
-					<Route path="/contact" exact component={Contact} />
+					<Route
+						exact path="/:category/"
+						component={ CategoryPage}
+					/>
+					<Route exact path="/:category/:id/:products/:name" component={ProductDetails} />
+					<Route exact path="/contact" component={Contact} />
 				</Switch>
 				<Footer />
 			</div>
 		</BrowserRouter>
 	);
 }
-
-export default App;
