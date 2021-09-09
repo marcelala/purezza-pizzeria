@@ -17,6 +17,8 @@ export const productsData = [
 					"Red tomato base, with our artisan, organic, rice based mozzarella, topped with basil leaves and extra virgin olive oil.",
 				ingredientList: [
 					{
+						id: "ingredient-1",
+
 						ingredient: "pizza",
 						icon: "fa-pizza",
 					},
@@ -33,6 +35,8 @@ export const productsData = [
 					"Homemade pesto base, with mozzarella, roasted courgettes, semi-dried tomatoes and parmesan.",
 				ingredientList: [
 					{
+						id: "ingredient-1",
+
 						ingredient: "pizza",
 						icon: "fa-pizza",
 					},
@@ -49,6 +53,8 @@ export const productsData = [
 					"Red tomato base with smoked mozzarella, aubergine parmigiana, crumbled sausages, topped with a dusting of nutritional yeast.",
 				ingredientList: [
 					{
+						id: "ingredient-1",
+
 						ingredient: "pizza",
 						icon: "fa-pizza",
 					},
@@ -65,6 +71,7 @@ export const productsData = [
 					"Black truffle base with mozzarella, pulled porketta and mixed wild forest mushrooms.",
 				ingredientList: [
 					{
+						id: "ingredient-1",
 						ingredient: "pizza",
 						icon: "fa-pizza",
 					},
@@ -91,8 +98,19 @@ export const productsData = [
 					"Indulgent chocolate caramel brownie with a scoop of ice cream.",
 				ingredientList: [
 					{
-						ingredient: "salted caramel, chocolate, oat flour",
-						icon: "fa-pizza",
+						id: "ingredient-1",
+						ingredient: "salted caramel",
+						icon: "caramel",
+					},
+					{
+						id: "ingredient-2",
+						ingredient: "chocolate",
+						icon: "chocolate",
+					},
+					{
+						id: "ingredient-3",
+						ingredient: "oat flour",
+						icon: "oat",
 					},
 				],
 				nutritionalInfo: ["very nutritious"],
@@ -106,6 +124,7 @@ export const productsData = [
 					"Chocolate pizza covered in our creamy homemade sunflower seed chocolate spread, topped with white chocolate crumble and a scoop of ice cream.",
 				ingredientList: [
 					{
+						id: "ingredient-1",
 						ingredient: "fa-pizza",
 						icon: "fa-pizza",
 					},
@@ -122,6 +141,7 @@ export const productsData = [
 					"Delicate lemon infused cheesecake with a mango coulis.",
 				ingredientList: [
 					{
+						id: "ingredient-1",
 						ingredient: "fa-pizza",
 						icon: "fa-pizza",
 					},
@@ -136,6 +156,7 @@ export const productsData = [
 				fullDescription: "gelato",
 				ingredientList: [
 					{
+						id: "ingredient-1",
 						ingredient: "gelato",
 						icon: "gelato",
 					},
@@ -160,8 +181,14 @@ export const productsData = [
 				fullDescription: "lemons or limes",
 				ingredientList: [
 					{
+						id: "ingredient-1",
 						ingredient: "lemons or limes",
 						icon: "lemon",
+					},
+					{
+						id: "ingredient-2",
+						ingredient: "limes",
+						icon: "lime",
 					},
 				],
 				nutritionalInfo: ["very nutritious"],
@@ -174,8 +201,14 @@ export const productsData = [
 				fullDescription: "",
 				ingredientList: [
 					{
-						ingredient: "carrots, oranges",
+						id: "ingredient-1",
+						ingredient: "carrots",
 						icon: "carrot",
+					},
+					{
+						id: "ingredient-2",
+						ingredient: "oranges",
+						icon: "orange",
 					},
 				],
 				nutritionalInfo: ["very nutritious"],
@@ -188,6 +221,8 @@ export const productsData = [
 				fullDescription: "carbonated bubbles",
 				ingredientList: [
 					{
+						id: "ingredient-1",
+
 						ingredient: "kombucha",
 						icon: "drink",
 					},
@@ -202,8 +237,19 @@ export const productsData = [
 				fullDescription: "all the greens we can find",
 				ingredientList: [
 					{
-						ingredient: "spinach, apples,kale",
+						id: "ingredient-1",
+						ingredient: "spinach",
 						icon: "spinach",
+					},
+					{
+						id: "ingredient-2",
+						ingredient: "apples",
+						icon: "apples",
+					},
+					{
+						id: "ingredient-3",
+						ingredient: "kale",
+						icon: "kale",
 					},
 				],
 				nutritionalInfo: ["very nutritious"],
