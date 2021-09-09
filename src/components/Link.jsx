@@ -1,7 +1,11 @@
-export default function Link({ href, children }) {
+export default function Link({ item }) {
+	const { icon, link } = item;
+	const imageSrc = require(`../assets/img/icons/${icon}`).default;
 	return (
-		<a href={href} target="_blank" rel="noopener noreferrer">
-			{children}
-		</a>
+		<li>
+			<a href={link} target="_blank" rel="noopener noreferrer">
+				<img src={imageSrc} alt="social icon" />
+			</a>
+		</li>
 	);
 }

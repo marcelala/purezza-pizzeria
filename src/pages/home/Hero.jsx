@@ -3,7 +3,7 @@ import heroImg from "../../assets/img/heroImg.png";
 
 export default function Hero() {
     return (
-					<section className="hero" id="hero">
+					<div className="hero">
 						<img
 							className="background"
 							src={heroImg}
@@ -13,6 +13,6 @@ export default function Hero() {
 							<span className="hero-title">purezza </span>
 							<span className="hero-subtitle"> Join the pizza revolution</span>
 						</div>
-					</section>
+					</div>
 		);
 }

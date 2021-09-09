@@ -2,17 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400;500;600;700;800;900&family=Oleo+Script:wght@400;700&family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap");
 //abstracts
 @import "abstracts/_variables.scss";
+@import "abstracts/mixins.scss";
 @import "base/_typography.scss";
-@import "base/_base.scss";
 @import "template/_grid.scss";
+@import "base/_base.scss";
 @import "template/_template.scss";
 
 //components
+@import "components/_button.scss";
 @import "components/_nav.scss";
 @import "components/_footer.scss";
-@import "components/_button.scss";
 //pages
 @import "../pages/home/_home.scss";
 @import "../pages/category/_categoryPage.scss";
-@import "../pages/ProductDetails/_productPage.scss";
+@import "../pages/ProductPage/_productPage.scss";
 @import "../pages/contact/_contact.scss";

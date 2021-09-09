@@ -1,0 +1,38 @@
+nav {
+	background-color: $primary;
+	width: 100vw;
+	color: $white;
+	font-family: $exo;
+	font-weight: 400;
+	height: 3.25rem;
+	position: fixed;
+	overflow: hidden;
+	z-index: 9999;
+
+	.logo.container {
+		align-items: center;
+	}
+	.logo {
+		height: 2.6rem;
+		width: auto;
+		margin: 0;
+	}
+	ul {
+		height: 100%;
+		width: 90%;
+		display: grid;
+		justify-content: space-around;
+		align-content: center;
+		align-items: center;
+		margin: auto;
+		grid-template-columns: 1fr repeat(5, 15%);
+	}
+	li {
+		font-size: 1rem;
+		justify-self: center;
+		&:hover {
+			text-decoration: underline;
+			color: $secondary;
+		}
+	}
+}

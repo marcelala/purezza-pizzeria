@@ -1,0 +1,64 @@
+/* MEDIA QUERY BREAKPOINTS
+    0-576px for portrait phones.
+    577-768px for tablets in portrait mode.
+    769-991 for tablets in landcape mode.
+    992-1200px for laptops.
+    1200px+ for large devices.
+*/
+
+@mixin grid($columns) {
+	grid-template-columns: 1fr repeat($columns, auto);
+	grid-gap: 0 1rem;
+}
+
+@mixin after($content: "", $pos: absolute) {
+	position: relative;
+	&::after {
+		content: $content;
+		position: $pos;
+		@content;
+	}
+}
+
+@mixin hover-lift() {
+	box-shadow: 0em 0.3em 0.5em 0em rgba(black, 0.2);
+	transition: transform 250ms ease-in-out;
+	@include after() {
+		box-shadow: 0em 0em 1.25em 0em rgba(black, 0.4);
+		transition: transform 250ms ease-in-out;
+		opacity: 0;
+	}
+	&:hover,
+	&:focus {
+		transform: scale(1.1);
+		&::after {
+			opacity: 1;
+		}
+	}
+}
+
+@mixin respond($breakpoint) {
+	@if $breakpoint== phone {
+		@media only screen and (max-width: 36em) {
+			@content;
+		}
+	}
+
+	@if $breakpoint== tab-port {
+		@media only screen and (max-width: 48em) {
+			@content;
+		}
+	}
+
+	@if $breakpoint== tab-land {
+		@media only screen and (max-width: 61.9em) {
+			@content;
+		}
+	}
+
+	@if $breakpoint== big-desktop {
+		@media only screen and (min-width: 75em) {
+			@content;
+		}
+	}
+}

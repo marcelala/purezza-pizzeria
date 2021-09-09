@@ -12,10 +12,22 @@ export const restaurant = {
 		"Country: Sweden",
 	],
 	map: {},
-	links: {
-		facebook: "https://www.facebook.com/purezza/",
-		instagram: "https://www.instagram.com/purezza/",
-		twitter: "https://twitter.com/purezza",
-		purezza: "https://purezza.co.uk/",
-	},
+	links: [
+		{ id: 1, icon: "facebook.svg", link: "https://www.facebook.com/purezza/" },
+		{
+			id: 2,
+			icon: "instagram.svg",
+			link: "https://www.instagram.com/purezza/",
+		},
+		{
+			id: 3,
+			icon: "twitter.svg",
+			link: "https://twitter.com/purezza",
+		},
+		{
+			id: 4,
+			icon: "google.svg",
+			link: "https://purezza.co.uk/",
+		},
+	],
 };
