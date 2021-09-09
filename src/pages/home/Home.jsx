@@ -1,12 +1,13 @@
 import React from 'react'
 import Hero from "./Hero"
-import Categories from '../../components/Categories'
+import List from '../../components/List'
+import Category from "../../components/Category";
 import { productsData } from "../../data/productData";
 export default function Home() {
     return (
 			<div>
 				<Hero />
-				<Categories data={productsData} />
+			<List list={productsData} Component={ Category} />
 			</div>
 		);
 }

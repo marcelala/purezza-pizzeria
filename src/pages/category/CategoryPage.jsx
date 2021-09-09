@@ -1,6 +1,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import Categories from "../../components/Categories";
+import Category from "../../components/Category";
+import List from "../../components/List";
+
 import { productsData } from "../../data/productData";
 
 export default function CategoryPage() {
@@ -10,7 +12,7 @@ export default function CategoryPage() {
 	});
 	return (
 		<section className={category.category}>
-			<Categories data={selectedCategory} />
+			<List list={selectedCategory} Component={ Category}/>
 		</section>
 	);
 }

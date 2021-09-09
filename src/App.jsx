@@ -4,10 +4,9 @@ import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Nav from "./components/Nav";
 import Home from "./pages/home/Home";
 import CategoryPage from "./pages/category/CategoryPage";
-import ProductDetails from "./pages/productDetails/ProductDetails";
+import ProductPage from "./pages/productPage/ProductPage";
 import Contact from "./pages/contact/Contact";
 import Footer from "./components/Footer";
-
 
 export default function App() {
 	return (
@@ -16,11 +15,8 @@ export default function App() {
 				<Nav />
 				<Switch>
 					<Route path="/" exact component={Home} />
-					<Route
-						exact path="/:category/"
-						component={ CategoryPage}
-					/>
-					<Route exact path="/:category/:id/:products/:name" component={ProductDetails} />
+					<Route exact path="/:category/" component={CategoryPage} />
+					<Route path="/:category/:id" exact component={ProductPage} />
 					<Route exact path="/contact" component={Contact} />
 				</Switch>
 				<Footer />
