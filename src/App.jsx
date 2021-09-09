@@ -15,9 +15,9 @@ export default function App() {
 				<Nav />
 				<Switch>
 					<Route path="/" exact component={Home} />
-					<Route exact path="/:category/" component={CategoryPage} />
+					<Route path="/contact" exact component={Contact} />
+					<Route path="/:category/" exact component={CategoryPage} />
 					<Route path="/:category/:id" exact component={ProductPage} />
-					<Route exact path="/contact" component={Contact} />
 				</Switch>
 				<Footer />
 			</div>
