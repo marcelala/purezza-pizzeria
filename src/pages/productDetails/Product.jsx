@@ -1,10 +1,10 @@
 import React from "react";
-import List from "../components/List";
-import Ingredient from "../components/Ingredient";
+import List from "../../components/List";
+import Ingredient from "../../components/Ingredient";
 
 export default function Product({ product }) {
     const { name, fullDescription, img, ingredientList, nutritionalInfo } = product;
-	const imageSrc = require(`../assets/img/products/${img}`).default;
+	const imageSrc = require(`../../assets/img/products/${img}`).default;
     return (
 			<div className="product">
 				<img className="product-img" src={imageSrc} alt="delicious food" />

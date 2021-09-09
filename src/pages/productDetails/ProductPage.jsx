@@ -2,11 +2,10 @@ import React from "react";
 import { useHistory, useLocation, useParams } from "react-router-dom";
 //projectFiles
 import { productsData } from "../../data/productData";
-import List from "../../components/List";
-import Product from "../../components/Product";
+import Product from "./Product";
 import Button from "../../components/Button";
 
-export default function ProductDetails() {
+export default function ProductPage() {
 	const history = useHistory();
 	const url = useParams();
 	const category = url.category;

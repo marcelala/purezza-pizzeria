@@ -1,7 +1,8 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 
-import Products from "./Products";
+import List from "./List";
+import ProductCard from "./ProductCard";
 
 export default function Category({ category }) {
 	const { id, categoryTitle, subtitle, description, img, products } = category;
@@ -13,7 +14,7 @@ export default function Category({ category }) {
 			<h2 className="category-subtitle">{subtitle}</h2>
 			<h1 className="category-name">{categoryTitle}</h1>
 			<p className="category-name">{description}</p>
-			{path !== "/" && <Products products={products} />}
+			{path !== "/" && <List list={products} Component={ProductCard} />}
 		</button>
 	);
 }
