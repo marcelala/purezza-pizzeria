@@ -1,6 +1,6 @@
 import React from "react";
 import List from "../../components/List";
-import Ingredient from "../../components/Ingredient";
+import Ingredient from "./Ingredient";
 
 export default function Product({ product }) {
     const { name, fullDescription, img, ingredientList, nutritionalInfo } = product;
