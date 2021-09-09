@@ -4,8 +4,8 @@ import { useLocation } from "react-router-dom";
 import List from "./List";
 import ProductCard from "../pages/category/ProductCard";
 
-export default function Category({ category }) {
-	const { id, categoryTitle, subtitle, description, img, products } = category;
+export default function Category({ item }) {
+	const { id, categoryTitle, subtitle, description, img, products } = item;
 	const imageSrc = require(`../assets/img/categories/${img}`).default;
 	const path = useLocation().pathname;
 	return (
