@@ -7,7 +7,9 @@ export default function Home() {
 	return (
 		<section className="home">
 			<Hero />
-			<List list={productsData} Component={Category} />
+			<div className="categories">
+				<List list={productsData} Component={Category} />
+			</div>
 		</section>
 	);
 }

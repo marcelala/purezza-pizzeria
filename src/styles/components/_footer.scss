@@ -1,4 +1,24 @@
-footer{
-    background-color: $secondary;
-    width: 100%;
+.footer {
+	background-color: $secondary;
+    height: 7rem;;
+	width: 100%;
+    display: flex;
+	align-items: center;
+    justify-items: center;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+
+	ul {
+		display: flex;
+		justify-content: center;
+        margin: auto;
+        li{
+            padding: 1rem;
+        }
+	}
+    p{
+        color: $white;
+        padding: .8rem;
+    }
 }
