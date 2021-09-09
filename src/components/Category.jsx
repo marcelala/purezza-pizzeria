@@ -2,7 +2,7 @@ import React from "react";
 import { useLocation } from "react-router-dom";
 
 import List from "./List";
-import ProductCard from "./ProductCard";
+import ProductCard from "../pages/category/ProductCard";
 
 export default function Category({ category }) {
 	const { id, categoryTitle, subtitle, description, img, products } = category;

@@ -3,10 +3,10 @@ import { useHistory,useLocation } from "react-router-dom";
 
 export default function ProductCard({ item}) {
 	const {id, name, shortDescription, img } = item;
-	const imageSrc = require(`../assets/img/products/${img}`).default;
+	const imageSrc = require(`../../assets/img/products/${img}`).default;
 	const history = useHistory();
 	const category = useLocation().pathname.toLowerCase();
-	const url = `../${category}/${id}`;
+	const url = `../../${category}/${id}`;
 	return (
 		<li>
 			<article>
