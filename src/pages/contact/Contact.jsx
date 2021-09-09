@@ -2,6 +2,7 @@ import React from "react";
 import { restaurant } from "../../data/restaurantData";
 import List from "../../components/List";
 import BulletItem from "../../components/BulletItem";
+import BookingForm from "./BookingForm";
 
 export default function Contact() {
 	const hours = restaurant.openingHours;
@@ -21,7 +22,8 @@ export default function Contact() {
 				<List list={hours} Component={BulletItem} />
 			</div>
 			<div className="booking">
-				<h2 className="oleo">Book a table</h2>
+				<h2 className="oleo">Booking</h2>
+				<BookingForm />
 			</div>
 			<div className="address">
 				<h2 className="oleo">Address</h2>
