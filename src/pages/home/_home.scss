@@ -41,10 +41,7 @@
 	}
 }
 .categories {
-	button {
-		border-color: transparent;
-		background: transparent;
-	}
+
 	h2,
 	h1,
 	p {
@@ -70,6 +67,8 @@
 			grid-gap: 0;
 			align-content: center;
 			overflow: hidden;
+		border-color: transparent;
+		background: transparent;
 		}
 
 		img {

@@ -5,6 +5,11 @@ import purezza from "../assets/img/purezza.png";
 export default function Nav() {
 	return (
 		<nav className="nav-bar">
+			<div className="logo-container">
+				<Link to="/">
+					<img className="logo-mobile" src={purezza} alt="background" />
+				</Link>
+			</div>
 			<ul>
 				<Link to="/">
 					<li>

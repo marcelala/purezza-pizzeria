@@ -62,6 +62,12 @@
 		}
 	}
 
+	@if $breakpoint== phone-large {
+		@media only screen and (max-width: 37em) {
+			@content;
+		}
+	}
+
 	@if $breakpoint== tab-port {
 		@media only screen and (max-width: 48em) {
 			@content;

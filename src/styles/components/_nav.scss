@@ -9,8 +9,17 @@ nav {
 	overflow: hidden;
 	z-index: 9999;
 
-	.logo.container {
+	.logo-container {
 		align-items: center;
+		text-align: center;
+		display: none;
+		@include respond(phone-large) {
+			display: block;
+			.logo-mobile{
+			height: 2.6rem;
+			width: auto;
+			margin: 0 2rem;}
+		}
 	}
 	.logo {
 		height: 2.6rem;
@@ -31,6 +40,10 @@ nav {
 		font-size: 1rem;
 		justify-self: center;
 		color: $white;
+		@include respond(phone-large) {
+			display: none;
+		}
+
 		&:hover {
 			text-decoration: underline;
 			color: $secondary;
