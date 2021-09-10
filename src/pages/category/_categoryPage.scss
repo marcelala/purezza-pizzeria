@@ -6,6 +6,10 @@
 		background-color: transparent;
 		border: none;
 	}
+	.category-card img {
+		max-height: 400px;
+		margin-top: 1.7rem;
+	}
 	ul,
 	.category-card .text-box {
 		width: 80%;
@@ -24,8 +28,7 @@
 		grid-gap: 2rem;
 	}
 	.product-card {
-				grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-
+		grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
 		button {
 			background: transparent;
 			transition: all 0.25s;
@@ -36,9 +39,10 @@
 			height: auto;
 			cursor: pointer;
 			@include cardGrid();
-			img{
-							box-shadow: 0 4px 4px rgb(30 30 100 / 25%);
-
+			img {
+				box-shadow: 0 4px 4px rgb(30 30 100 / 25%);
+				max-height: 100%;
+				max-width: 100%;
 			}
 			.text-box {
 				width: 100%;
@@ -47,30 +51,15 @@
 			}
 		}
 		.product-name {
-			padding: 1rem;
+			padding: 1rem auto;
 			padding-top: 0rem;
 			font-family: $exo;
 			text-transform: uppercase;
 			font-weight: 700;
 		}
+		.product-the{
+			padding: 0;
+		}
 	}
-	h2,
-	h1,
-	p {
-		text-align: left;
-	}
-	h2 {
-		font-family: $oleo;
-		color: $primary;
-	}
-	h1 {
-		font-family: $exo;
-		text-transform: uppercase;
-		font-weight: 900;
-	}
-	h3 {
-		padding-left: 1rem;
-		font-family: $oleo;
-		text-align: left;
-	}
+
 }

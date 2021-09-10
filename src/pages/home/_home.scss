@@ -68,11 +68,6 @@
 			overflow: hidden;
 			border-color: transparent;
 			background: transparent;
-
-			li:nth-child(odd) {
-				grid-template-areas:
-				"text image";
-			}
 		}
 		img {
 			object-fit: cover;

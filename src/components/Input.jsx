@@ -10,7 +10,7 @@ export default function Input({ hook, settings }) {
 				autoFocus={autofocus}
 				autoComplete={autocomplete}
 				onChange={(event) => setState(event.target.value)}
-				name={name}
+				className={name}
 				placeholder={placeholder}
 				type={type}
                 value={state}

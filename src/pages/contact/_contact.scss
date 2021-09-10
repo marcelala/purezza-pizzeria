@@ -1,0 +1,59 @@
+.contact {
+	display: grid;
+	img {
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+		overflow: hidden;
+		max-height: 450px;
+		position: relative;
+		margin-top: 2rem;
+	}
+	ul,
+	.text-box,
+	.hours,
+	.booking,
+	.address {
+		width: 80%;
+		display: grid;
+		margin: 1rem auto;
+	}
+	ul {
+		list-style: circle;
+		list-style-position: outside;
+		width: 90%;
+		margin: 1rem;
+	}
+}
+
+.booking {
+	grid-gap: 0.5rem;
+	grid-template-areas:
+		"title title"
+		"name name"
+		"email email"
+		"phone people"
+		"date time"
+		"button button";
+	h2 {
+		grid-area: title;
+	}
+	.name {
+		grid-area: name;
+	}
+	.email {
+		grid-area: email;
+	}
+	.phone {
+		grid-area: phone;
+	}
+	.nrOfPeople {
+		grid-area: people;
+	}
+	.string {
+		grid-area: time;
+	}
+	.btn-primary {
+		grid-area: button;
+	}
+}

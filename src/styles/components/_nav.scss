@@ -9,7 +9,7 @@
 	overflow: hidden;
 	z-index: 9999;
 		@include respond(phone-large) {
-			height: 2rem;
+			height: 2.5rem;
 		}
 
 	.logo {
