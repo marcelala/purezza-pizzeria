@@ -7,7 +7,7 @@
 
 ## Overview
 
-Welcome to Purezza Pizzeria,the Uk's top pizza and completely vegan! Click [here](https://purezza.web.app/) to visit and get to know Stockholm's future best pizzeria.\
+Welcome to Purezza Pizzeria,the Uk's top pizza and completely vegan! Click [here](https://purezza.web.app/) to visit and get to know Stockholm's future best pizzeria.
 
 <br/>
 
@@ -137,9 +137,9 @@ npm run build
 
 <br/>
 
-- This project was developed by for practice only, the name purezza and pictures belong to the company [purezza] (https://purezza.co.uk/) in the UK.
-- This project was developed by Marcela Felix Fortis mentored by [Eduardo Alvarez] (https://github.com/elalienx) with support from [Novare Potential(https://www.novarepotential.com/).
+- This project was developed by for practice only, the name purezza and pictures belong to the company [purezza](https://purezza.co.uk/) in the UK.
+- This project was developed by Marcela Felix Fortis mentored by [Eduardo Alvarez](https://github.com/elalienx) with support from [Novare Potential](https://www.novarepotential.com/).
 - Exo 2,Oleo Script and Roboto Mono fonts are by from Google Fonts.
-- Icons by FontAwesome [(Creative Commons Attribution 4.0 International license)] (https://fontawesome.com/license).
+- Icons by FontAwesome [(Creative Commons Attribution 4.0 International license)](https://fontawesome.com/license).
 - Images from Unsplash.
-- The project was bootstrapped with [Create React App] (https://github.com/facebookincubator/create-react-app). For more information on how to perform common tasks, visit [this page] (https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
+- The project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). For more information on how to perform common tasks, visit [this page](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).
