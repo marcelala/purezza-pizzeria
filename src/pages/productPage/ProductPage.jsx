@@ -1,5 +1,5 @@
 import React from "react";
-import { useHistory, useLocation, useParams } from "react-router-dom";
+import { useHistory, useParams } from "react-router-dom";
 //projectFiles
 import { productsData } from "../../data/productData";
 import Product from "./Product";
@@ -30,7 +30,9 @@ export default function ProductPage() {
 	return (
 		<section className="product-details">
 			<Product key={product.id} product={product} />
-			<Button onClick={() => history.goBack()}>Go back</Button>
+			<Button onClick={() => history.goBack()} theme={"primary"}>
+				Return to {category}
+			</Button>
 		</section>
 	);
 }

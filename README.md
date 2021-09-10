@@ -7,7 +7,7 @@
 
 ## Overview
 
-This is my portfolio, welcome! Soon you will be able to click [here]() to visit and get to know Stockholm's future best pizzeria.\
+Welcome to Purezza Pizzeria,the Uk's top pizza and algo completely vegan! Click [here]() to visit and get to know Stockholm's future best pizzeria.\
 
 <br/>
 
@@ -43,7 +43,7 @@ The goal of this project was to build a multiple page application for a Vegan Re
 
 <br/>
 
-[Assignment](Link available soon)
+[Assignment](https://docs.google.com/document/d/1cS-tKvvwyI-pBIPkcioc2JKmedj7iH86iaOgA0z-xdw/edit?usp=sharing)
 
 <br/>
 
@@ -51,7 +51,7 @@ The goal of this project was to build a multiple page application for a Vegan Re
 
 <br/>
 
-[Google Spreadsheets link](Link available soon)
+[Google Spreadsheets link](https://docs.google.com/spreadsheets/d/1kKPXP8e7PO3vHwvImAJ0W4dm7k5fbF9VzQXL-0WQLf0/edit?usp=sharing)
 
 <br/>
 
@@ -60,14 +60,15 @@ The goal of this project was to build a multiple page application for a Vegan Re
 
 The component tree allows the visualization of the different parts of the application.
 <br/>
-[View on Whimsical](Link available soon)
+
+[View on Whimsical](https://whimsical.com/restaurant-EsTxRxw5JBpZrRBDQhKXam@2Ux7TurymMicTcMFM5T1)
 <br/>
 
 ### Design mockup
 
 <br/>
 
-[Figma mockup](Link available soon)
+[Figma mockup](https://www.figma.com/file/8Wq4qiP7oO1vCBpK8TiL80/Restaurant?node-id=136%3A2864)
 
 <br/>
 
@@ -116,6 +117,7 @@ npm run build
 
 - As a project generated with `create-react-app`, it includes React and ReactDOM as dependencies. It also includes a set of scripts used by Create React App as a development dependency.
 - The project setup also uses [Webpack](https://webpack.js.org/) for handling all assets, as Webpack offers a custom way of “extending” the concept of `import` beyond JavaScript.
+- [React Router Dom](https://www.npmjs.com/package/react-router-dom) for routing Navigation.
 - [SASS](https://github.com/sass/sass) Sassy CSS for styling
 - [Firebase](https://firebase.google.com/) for hosting the application.
 
@@ -134,9 +136,9 @@ npm run build
 ## Attributions & Helpful Links
 
 <br/>
-
+- This project was developed by for practice only, the name purezza and pictures belong to the company [purezza](https://purezza.co.uk/) in the UK.
 - This project was developed by Marcela Felix Fortis mentored by [Eduardo Alvarez](https://github.com/elalienx) with support from [Novare Potential]().
-- Montserrat and Satisfy fonts are by from Google Fonts.
-- All icons by FontAwesome [(Creative Commons Attribution 4.0 International license)](https://fontawesome.com/license).
+- Exo 2,Oleo Script and Roboto Mono fonts are by from Google Fonts.
+- Icons by FontAwesome [(Creative Commons Attribution 4.0 International license)](https://fontawesome.com/license).
 - Images from Unsplash.
 - The project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). For more information on how to perform common tasks, visit [this page](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md).

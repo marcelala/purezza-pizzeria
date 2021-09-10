@@ -1,12 +1,10 @@
-import React from 'react'
+import React from "react";
 
 export default function Ingredient({ item }) {
-	const { ingredient, icon } = item;
-      //const imageSrc = require(`../../assets/img/icons/${icon}`).default;
-    return (
+	const { ingredient } = item;
+	return (
 		<li className="ingredient">
-				{/*<img src={imageSrc} alt="" />*/}
-				<p>{ingredient}</p>
-			</li>
-		);
+			<p>{ingredient}</p>
+		</li>
+	);
 }

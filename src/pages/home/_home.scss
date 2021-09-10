@@ -1,0 +1,88 @@
+.home {
+	width: 100%;
+}
+.hero {
+	height: 100vh;
+	width: 100vw;
+	position: relative;
+	width: 100%;
+	margin: auto;
+	color: $white;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+
+	.background {
+		width: 100vw;
+		height: 100vh;
+		object-fit: cover;
+		overflow: hidden;
+		position: absolute;
+	}
+	span {
+		position: relative;
+		display: block;
+		margin: auto;
+		color: $white;
+	}
+	&-title {
+		font-family: $exo;
+		font-weight: 900;
+		font-size: 4rem;
+		text-align: center;
+		top: 120%;
+	}
+	&-subtitle {
+		font-family: $oleo;
+		font-weight: regular;
+		font-size: 1.8rem;
+		text-align: center;
+		top: 125%;
+	}
+}
+.categories {
+	h2,
+	h1,
+	p {
+		text-align: left;
+	}
+	h2 {
+		font-family: $oleo;
+		color: $primary;
+	}
+	h1 {
+		font-family: $exo;
+		text-transform: uppercase;
+		font-weight: 900;
+	}
+	p {
+		margin: 1.3rem auto;
+	}
+
+	.category-card {
+		button {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+			grid-gap: 0;
+			align-content: center;
+			overflow: hidden;
+			border-color: transparent;
+			background: transparent;
+		}
+		img {
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+			overflow: hidden;
+		}
+
+		.text-box {
+			justify-items: center;
+			align-items: center;
+			width: 100%;
+			height: 100%;
+			padding: 2rem;
+			margin: auto 1rem;
+		}
+	}
+}

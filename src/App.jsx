@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 //project files
-import Nav from "./components/Nav";
+import Navigation from "./components/Navigation";
 import Home from "./pages/home/Home";
 import CategoryPage from "./pages/category/CategoryPage";
 import ProductPage from "./pages/productPage/ProductPage";
@@ -12,12 +12,12 @@ export default function App() {
 	return (
 		<BrowserRouter>
 			<div className="App">
-				<Nav />
+				<Navigation />
 				<Switch>
 					<Route path="/" exact component={Home} />
-					<Route exact path="/:category/" component={CategoryPage} />
+					<Route path="/contact" exact component={Contact} />
+					<Route path="/:category/" exact component={CategoryPage} />
 					<Route path="/:category/:id" exact component={ProductPage} />
-					<Route exact path="/contact" component={Contact} />
 				</Switch>
 				<Footer />
 			</div>

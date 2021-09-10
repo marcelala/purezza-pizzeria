@@ -1,0 +1,62 @@
+.contact {
+	display: grid;
+	img {
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+		overflow: hidden;
+		max-height: 450px;
+		position: relative;
+		margin-top: 2rem;
+	}
+	ul,
+	.text-box,
+	.hours,
+	.address {
+		width: 80%;
+		display: grid;
+		margin: 1rem auto;
+	}
+	ul {
+		list-style: circle;
+		list-style-position: outside;
+		width: 90%;
+		margin: 1rem;
+	}
+
+	.booking {
+		width: 80%;
+		margin: 1rem auto;
+        display: grid;
+	}
+	.fields {
+		margin: auto;
+		margin-top: 1rem;
+        display: grid;
+        row-gap: .8rem;
+        column-gap: 1rem;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+		@include respond(big-desktop){
+		grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+		}
+	}
+    form{
+        margin-bottom:2rem;
+    }
+	.btn-primary {
+		width: 60%;
+		margin: 0 auto;
+	}
+	input {
+		width: 90%;
+		background-color: rgba(0, 0, 0, 0.04);
+		border: 2px solid transparent;
+		outline: 0;
+		font-size: 1.2rem;
+		padding: 0.6rem;
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+		text-size-adjust: 100%;
+		margin: 0.2rem;
+	}
+}
