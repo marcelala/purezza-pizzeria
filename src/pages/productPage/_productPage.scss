@@ -8,6 +8,7 @@
 	.product {
 		width: 100%;
 		overflow: hidden;
+		display: grid;
 		img {
 			object-fit: cover;
 			width: 100%;

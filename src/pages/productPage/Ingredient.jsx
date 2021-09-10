@@ -1,10 +1,10 @@
-import React from 'react'
+import React from "react";
 
 export default function Ingredient({ item }) {
-	const { ingredient, icon } = item;
-    return (
+	const { ingredient } = item;
+	return (
 		<li className="ingredient">
-				<p>{ingredient}</p>
-			</li>
-		);
+			<p>{ingredient}</p>
+		</li>
+	);
 }

@@ -26,9 +26,13 @@
 	ul {
 		display: grid;
 		grid-gap: 2rem;
+		@include respond(big-desktop){
+		grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+		}
 	}
 	.product-card {
 		grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+		margin:0;
 		button {
 			background: transparent;
 			transition: all 0.25s;
@@ -38,6 +42,17 @@
 			width: 100%;
 			height: auto;
 			cursor: pointer;
+			align-items: center;
+
+
+			@include respond(big-desktop) {
+				grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+				max-width: 600px;
+				max-height: auto;
+				justify-content: center;
+				margin: 0;
+			}
+
 			@include cardGrid();
 			img {
 				box-shadow: 0 4px 4px rgb(30 30 100 / 25%);
@@ -48,6 +63,9 @@
 				width: 100%;
 				margin: 0;
 				height: auto;
+				max-height: 100%;
+				max-width: 100%;
+				overflow: hidden;
 			}
 		}
 		.product-name {
@@ -56,10 +74,10 @@
 			font-family: $exo;
 			text-transform: uppercase;
 			font-weight: 700;
+			margin-bottom: 1.5rem;
 		}
-		.product-the{
+		.product-the {
 			padding: 0;
 		}
 	}
-
 }

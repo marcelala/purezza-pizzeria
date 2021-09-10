@@ -1,5 +1,5 @@
 import React from "react";
-import { useHistory, useLocation, useParams } from "react-router-dom";
+import { useHistory, useParams } from "react-router-dom";
 //projectFiles
 import { productsData } from "../../data/productData";
 import Product from "./Product";

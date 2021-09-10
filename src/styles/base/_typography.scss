@@ -1,5 +1,5 @@
-html{
-    font-family: "Roboto Mono", sans-serif;
+html {
+	font-family: "Roboto Mono", sans-serif;
 }
 
 h1,
@@ -18,26 +18,27 @@ h3,
 	font-size: 1rem;
 	line-height: 1.375rem;
 }
-p, .p {
+p,
+.p {
 	font-size: 1rem;
 	line-height: 1.375rem;
 }
 h2,
-		h1,
-		p {
-			text-align: left;
-		}
-		h2 {
-			font-family: $oleo;
-			color: $primary;
-		}
-		h1 {
-			font-family: $exo;
-			text-transform: uppercase;
-			font-weight: 900;
-		}
-		h3 {
-			padding-left: 1rem;
-			font-family: $oleo;
-			text-align: left;
-		}
+h1,
+p {
+	text-align: left;
+}
+h2 {
+	font-family: $oleo;
+	color: $primary;
+}
+h1 {
+	font-family: $exo;
+	text-transform: uppercase;
+	font-weight: 900;
+}
+h3 {
+	padding-left: 1rem;
+	font-family: $oleo;
+	text-align: left;
+}

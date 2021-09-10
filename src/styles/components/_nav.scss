@@ -8,9 +8,9 @@
 	position: fixed;
 	overflow: hidden;
 	z-index: 9999;
-		@include respond(phone-large) {
-			height: 2.5rem;
-		}
+	@include respond(phone-large) {
+		height: 2.5rem;
+	}
 
 	.logo {
 		height: 2.6rem;
@@ -31,15 +31,13 @@
 		justify-content: center;
 		align-content: center;
 		align-items: center;
-		grid-template-columns:  max-content repeat(5, 10%);
+		grid-template-columns: max-content repeat(5, 10%);
 		@include respond(phone-large) {
-							justify-content: space-around;
-
-
+			justify-content: space-around;
 		}
 	}
 	li {
-		font-size: .9rem;
+		font-size: 0.9rem;
 		justify-self: center;
 		color: $white;
 		display: inline-block;

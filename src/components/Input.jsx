@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 export default function Input({ hook, settings }) {
 	const { autofocus, autocomplete, name, placeholder, type } = settings;
@@ -13,8 +13,8 @@ export default function Input({ hook, settings }) {
 				className={name}
 				placeholder={placeholder}
 				type={type}
-                value={state}
-                required
+				value={state}
+				required
 			/>
 		</label>
 	);

@@ -3,10 +3,9 @@ import React from "react";
 //https://s.cdpn.io/3/NutritionFacts.gif
 
 export default function NutritionFacts({ nutritionalInfo }) {
+	//const { id, label, value } = element;
 
-    //const { id, label, value } = element;
-
-    return (
+	return (
 		<div className="performance-facts">
 			<header className="performance-facts__header">
 				<h1 className="performance-facts__title">Nutrition Facts</h1>

@@ -1,16 +1,16 @@
-html{
-    display: grid;
-    grid: auto-flow min-content / 1fr;
-    grid-template-areas:
+html {
+	display: grid;
+	grid: auto-flow min-content / 1fr;
+	grid-template-areas:
 		"nav"
 		"content"
 		"footer";
 }
-nav{
-    width: 100%;
-    grid-area: nav;
+nav {
+	width: 100%;
+	grid-area: nav;
 }
-footer{
-    width: 100%;
-    grid-area: footer;
+footer {
+	width: 100%;
+	grid-area: footer;
 }

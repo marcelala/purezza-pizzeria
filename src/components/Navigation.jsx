@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import purezza from "../assets/img/purezza.png";
 
-export default function Nav() {
+export default function Navigation() {
 	return (
 		<nav className="nav-bar">
 			<ul>

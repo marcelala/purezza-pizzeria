@@ -4,7 +4,6 @@ import Category from "../../components/Category";
 import List from "../../components/List";
 import ProductCard from "./ProductCard";
 
-
 import { productsData } from "../../data/productData";
 
 export default function CategoryPage() {
@@ -14,9 +13,9 @@ export default function CategoryPage() {
 	})[0];
 	return (
 		<section className={category.category}>
-			<Category item={selectedCategory}/>
+			<Category item={selectedCategory} />
 			<div className="products-list">
-			<List list={selectedCategory.products} Component={ProductCard} />
+				<List list={selectedCategory.products} Component={ProductCard} />
 			</div>
 		</section>
 	);
