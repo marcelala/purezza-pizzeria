@@ -1,0 +1,19 @@
+.btn {
+	font-size: 1rem;
+	position: relative;
+	text-decoration: none;
+	border: 0;
+	font-weight: 400;
+	padding: 1rem 1.5rem;
+	justify-content: center;
+	align-items: center;
+	color: white;
+    text-transform: capitalize;
+    margin:2rem;
+	@include hover-lift;
+	border-radius: 2rem;
+    &-primary{
+        background-color: $primary-transparent;
+        color: $primary;
+    }
+}

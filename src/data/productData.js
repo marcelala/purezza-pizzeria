@@ -39,7 +39,80 @@ export const productsData = [
 						icon: "Olive oil",
 					},
 				],
-				nutritionalInfo: ["very nutritious"],
+				nutritionalInfo: [
+					{
+						id: 1,
+						label: "Calories",
+						value: 130,
+					},
+					{
+						id: 2,
+						label: "Total Fat",
+						value: 12,
+					},
+					{
+						id: 3,
+						label: "Saturated Fat",
+						value: 3,
+					},
+					{
+						id: 4,
+						label: "Trans Fat",
+						value: 0,
+					},
+					{
+						id: 5,
+						label: "Cholesterol",
+						value: 0,
+					},
+					{
+						id: 6,
+						label: "Sodium",
+						value: 5,
+					},
+					{
+						id: 7,
+						label: "Total Carbohydrate",
+						value: 20,
+					},
+
+					{
+						id: 8,
+						label: "Dietary Fiber",
+						value: 7,
+					},
+
+					{
+						id: 9,
+						label: "Sugars",
+						value: 4,
+					},
+					{
+						id: 10,
+						label: "Protein",
+						value: 11,
+					},
+					{
+						id: 11,
+						label: "Vitamin A",
+						value: 10,
+					},
+					{
+						id: 12,
+						label: "Calcium",
+						value: 20,
+					},
+					{
+						id: 13,
+						label: "Vitamin C",
+						value: 10,
+					},
+					{
+						id: 14,
+						label: "Iron",
+						value: 5,
+					},
+				],
 			},
 			{
 				id: "2",
@@ -72,7 +145,80 @@ export const productsData = [
 						icon: "pesto",
 					},
 				],
-				nutritionalInfo: ["very nutritious"],
+				nutritionalInfo: [
+					{
+						id: 1,
+						label: "Calories",
+						value: 130,
+					},
+					{
+						id: 2,
+						label: "Total Fat",
+						value: 12,
+					},
+					{
+						id: 3,
+						label: "Saturated Fat",
+						value: 3,
+					},
+					{
+						id: 4,
+						label: "Trans Fat",
+						value: 0,
+					},
+					{
+						id: 5,
+						label: "Cholesterol",
+						value: 0,
+					},
+					{
+						id: 6,
+						label: "Sodium",
+						value: 5,
+					},
+					{
+						id: 7,
+						label: "Total Carbohydrate",
+						value: 20,
+					},
+
+					{
+						id: 8,
+						label: "Dietary Fiber",
+						value: 7,
+					},
+
+					{
+						id: 9,
+						label: "Sugars",
+						value: 4,
+					},
+					{
+						id: 10,
+						label: "Protein",
+						value: 11,
+					},
+					{
+						id: 11,
+						label: "Vitamin A",
+						value: 10,
+					},
+					{
+						id: 12,
+						label: "Calcium",
+						value: 20,
+					},
+					{
+						id: 13,
+						label: "Vitamin C",
+						value: 10,
+					},
+					{
+						id: 14,
+						label: "Iron",
+						value: 5,
+					},
+				],
 			},
 			{
 				id: "3",
@@ -115,7 +261,80 @@ export const productsData = [
 						icon: "nutritional yeast",
 					},
 				],
-				nutritionalInfo: ["very nutritious"],
+				nutritionalInfo: [
+					{
+						id: 1,
+						label: "Calories",
+						value: 130,
+					},
+					{
+						id: 2,
+						label: "Total Fat",
+						value: 12,
+					},
+					{
+						id: 3,
+						label: "Saturated Fat",
+						value: 3,
+					},
+					{
+						id: 4,
+						label: "Trans Fat",
+						value: 0,
+					},
+					{
+						id: 5,
+						label: "Cholesterol",
+						value: 0,
+					},
+					{
+						id: 6,
+						label: "Sodium",
+						value: 5,
+					},
+					{
+						id: 7,
+						label: "Total Carbohydrate",
+						value: 20,
+					},
+
+					{
+						id: 8,
+						label: "Dietary Fiber",
+						value: 7,
+					},
+
+					{
+						id: 9,
+						label: "Sugars",
+						value: 4,
+					},
+					{
+						id: 10,
+						label: "Protein",
+						value: 11,
+					},
+					{
+						id: 11,
+						label: "Vitamin A",
+						value: 10,
+					},
+					{
+						id: 12,
+						label: "Calcium",
+						value: 20,
+					},
+					{
+						id: 13,
+						label: "Vitamin C",
+						value: 10,
+					},
+					{
+						id: 14,
+						label: "Iron",
+						value: 5,
+					},
+				],
 			},
 			{
 				id: "4",
@@ -153,7 +372,80 @@ export const productsData = [
 						icon: "truffle",
 					},
 				],
-				nutritionalInfo: ["very nutritious"],
+				nutritionalInfo: [
+					{
+						id: 1,
+						label: "Calories",
+						value: 130,
+					},
+					{
+						id: 2,
+						label: "Total Fat",
+						value: 12,
+					},
+					{
+						id: 3,
+						label: "Saturated Fat",
+						value: 3,
+					},
+					{
+						id: 4,
+						label: "Trans Fat",
+						value: 0,
+					},
+					{
+						id: 5,
+						label: "Cholesterol",
+						value: 0,
+					},
+					{
+						id: 6,
+						label: "Sodium",
+						value: 5,
+					},
+					{
+						id: 7,
+						label: "Total Carbohydrate",
+						value: 20,
+					},
+
+					{
+						id: 8,
+						label: "Dietary Fiber",
+						value: 7,
+					},
+
+					{
+						id: 9,
+						label: "Sugars",
+						value: 4,
+					},
+					{
+						id: 10,
+						label: "Protein",
+						value: 11,
+					},
+					{
+						id: 11,
+						label: "Vitamin A",
+						value: 10,
+					},
+					{
+						id: 12,
+						label: "Calcium",
+						value: 20,
+					},
+					{
+						id: 13,
+						label: "Vitamin C",
+						value: 10,
+					},
+					{
+						id: 14,
+						label: "Iron",
+						value: 5,
+					},
+				],
 			},
 		],
 	},
@@ -205,7 +497,80 @@ export const productsData = [
 						icon: "sugar",
 					},
 				],
-				nutritionalInfo: ["very nutritious"],
+				nutritionalInfo: [
+					{
+						id: 1,
+						label: "Calories",
+						value: 130,
+					},
+					{
+						id: 2,
+						label: "Total Fat",
+						value: 12,
+					},
+					{
+						id: 3,
+						label: "Saturated Fat",
+						value: 3,
+					},
+					{
+						id: 4,
+						label: "Trans Fat",
+						value: 0,
+					},
+					{
+						id: 5,
+						label: "Cholesterol",
+						value: 0,
+					},
+					{
+						id: 6,
+						label: "Sodium",
+						value: 5,
+					},
+					{
+						id: 7,
+						label: "Total Carbohydrate",
+						value: 20,
+					},
+
+					{
+						id: 8,
+						label: "Dietary Fiber",
+						value: 7,
+					},
+
+					{
+						id: 9,
+						label: "Sugars",
+						value: 4,
+					},
+					{
+						id: 10,
+						label: "Protein",
+						value: 11,
+					},
+					{
+						id: 11,
+						label: "Vitamin A",
+						value: 10,
+					},
+					{
+						id: 12,
+						label: "Calcium",
+						value: 20,
+					},
+					{
+						id: 13,
+						label: "Vitamin C",
+						value: 10,
+					},
+					{
+						id: 14,
+						label: "Iron",
+						value: 5,
+					},
+				],
 			},
 			{
 				id: "2",
@@ -241,7 +606,80 @@ export const productsData = [
 						icon: "salt",
 					},
 				],
-				nutritionalInfo: ["very nutritious"],
+				nutritionalInfo: [
+					{
+						id: 1,
+						label: "Calories",
+						value: 130,
+					},
+					{
+						id: 2,
+						label: "Total Fat",
+						value: 12,
+					},
+					{
+						id: 3,
+						label: "Saturated Fat",
+						value: 3,
+					},
+					{
+						id: 4,
+						label: "Trans Fat",
+						value: 0,
+					},
+					{
+						id: 5,
+						label: "Cholesterol",
+						value: 0,
+					},
+					{
+						id: 6,
+						label: "Sodium",
+						value: 5,
+					},
+					{
+						id: 7,
+						label: "Total Carbohydrate",
+						value: 20,
+					},
+
+					{
+						id: 8,
+						label: "Dietary Fiber",
+						value: 7,
+					},
+
+					{
+						id: 9,
+						label: "Sugars",
+						value: 4,
+					},
+					{
+						id: 10,
+						label: "Protein",
+						value: 11,
+					},
+					{
+						id: 11,
+						label: "Vitamin A",
+						value: 10,
+					},
+					{
+						id: 12,
+						label: "Calcium",
+						value: 20,
+					},
+					{
+						id: 13,
+						label: "Vitamin C",
+						value: 10,
+					},
+					{
+						id: 14,
+						label: "Iron",
+						value: 5,
+					},
+				],
 			},
 			{
 				id: "3",
@@ -282,7 +720,80 @@ export const productsData = [
 						icon: "sugar",
 					},
 				],
-				nutritionalInfo: ["very nutritious"],
+				nutritionalInfo: [
+					{
+						id: 1,
+						label: "Calories",
+						value: 130,
+					},
+					{
+						id: 2,
+						label: "Total Fat",
+						value: 12,
+					},
+					{
+						id: 3,
+						label: "Saturated Fat",
+						value: 3,
+					},
+					{
+						id: 4,
+						label: "Trans Fat",
+						value: 0,
+					},
+					{
+						id: 5,
+						label: "Cholesterol",
+						value: 0,
+					},
+					{
+						id: 6,
+						label: "Sodium",
+						value: 5,
+					},
+					{
+						id: 7,
+						label: "Total Carbohydrate",
+						value: 20,
+					},
+
+					{
+						id: 8,
+						label: "Dietary Fiber",
+						value: 7,
+					},
+
+					{
+						id: 9,
+						label: "Sugars",
+						value: 4,
+					},
+					{
+						id: 10,
+						label: "Protein",
+						value: 11,
+					},
+					{
+						id: 11,
+						label: "Vitamin A",
+						value: 10,
+					},
+					{
+						id: 12,
+						label: "Calcium",
+						value: 20,
+					},
+					{
+						id: 13,
+						label: "Vitamin C",
+						value: 10,
+					},
+					{
+						id: 14,
+						label: "Iron",
+						value: 5,
+					},
+				],
 			},
 			{
 				id: "4",
@@ -317,7 +828,80 @@ export const productsData = [
 						icon: "sugar",
 					},
 				],
-				nutritionalInfo: ["very nutritious"],
+				nutritionalInfo: [
+					{
+						id: 1,
+						label: "Calories",
+						value: 130,
+					},
+					{
+						id: 2,
+						label: "Total Fat",
+						value: 12,
+					},
+					{
+						id: 3,
+						label: "Saturated Fat",
+						value: 3,
+					},
+					{
+						id: 4,
+						label: "Trans Fat",
+						value: 0,
+					},
+					{
+						id: 5,
+						label: "Cholesterol",
+						value: 0,
+					},
+					{
+						id: 6,
+						label: "Sodium",
+						value: 5,
+					},
+					{
+						id: 7,
+						label: "Total Carbohydrate",
+						value: 20,
+					},
+
+					{
+						id: 8,
+						label: "Dietary Fiber",
+						value: 7,
+					},
+
+					{
+						id: 9,
+						label: "Sugars",
+						value: 4,
+					},
+					{
+						id: 10,
+						label: "Protein",
+						value: 11,
+					},
+					{
+						id: 11,
+						label: "Vitamin A",
+						value: 10,
+					},
+					{
+						id: 12,
+						label: "Calcium",
+						value: 20,
+					},
+					{
+						id: 13,
+						label: "Vitamin C",
+						value: 10,
+					},
+					{
+						id: 14,
+						label: "Iron",
+						value: 5,
+					},
+				],
 			},
 		],
 	},
@@ -352,7 +936,80 @@ export const productsData = [
 						icon: "water",
 					},
 				],
-				nutritionalInfo: ["very nutritious"],
+				nutritionalInfo: [
+					{
+						id: 1,
+						label: "Calories",
+						value: 130,
+					},
+					{
+						id: 2,
+						label: "Total Fat",
+						value: 12,
+					},
+					{
+						id: 3,
+						label: "Saturated Fat",
+						value: 3,
+					},
+					{
+						id: 4,
+						label: "Trans Fat",
+						value: 0,
+					},
+					{
+						id: 5,
+						label: "Cholesterol",
+						value: 0,
+					},
+					{
+						id: 6,
+						label: "Sodium",
+						value: 5,
+					},
+					{
+						id: 7,
+						label: "Total Carbohydrate",
+						value: 20,
+					},
+
+					{
+						id: 8,
+						label: "Dietary Fiber",
+						value: 7,
+					},
+
+					{
+						id: 9,
+						label: "Sugars",
+						value: 4,
+					},
+					{
+						id: 10,
+						label: "Protein",
+						value: 11,
+					},
+					{
+						id: 11,
+						label: "Vitamin A",
+						value: 10,
+					},
+					{
+						id: 12,
+						label: "Calcium",
+						value: 20,
+					},
+					{
+						id: 13,
+						label: "Vitamin C",
+						value: 10,
+					},
+					{
+						id: 14,
+						label: "Iron",
+						value: 5,
+					},
+				],
 			},
 			{
 				id: "2",
@@ -377,7 +1034,80 @@ export const productsData = [
 						icon: "water",
 					},
 				],
-				nutritionalInfo: ["very nutritious"],
+				nutritionalInfo: [
+					{
+						id: 1,
+						label: "Calories",
+						value: 130,
+					},
+					{
+						id: 2,
+						label: "Total Fat",
+						value: 12,
+					},
+					{
+						id: 3,
+						label: "Saturated Fat",
+						value: 3,
+					},
+					{
+						id: 4,
+						label: "Trans Fat",
+						value: 0,
+					},
+					{
+						id: 5,
+						label: "Cholesterol",
+						value: 0,
+					},
+					{
+						id: 6,
+						label: "Sodium",
+						value: 5,
+					},
+					{
+						id: 7,
+						label: "Total Carbohydrate",
+						value: 20,
+					},
+
+					{
+						id: 8,
+						label: "Dietary Fiber",
+						value: 7,
+					},
+
+					{
+						id: 9,
+						label: "Sugars",
+						value: 4,
+					},
+					{
+						id: 10,
+						label: "Protein",
+						value: 11,
+					},
+					{
+						id: 11,
+						label: "Vitamin A",
+						value: 10,
+					},
+					{
+						id: 12,
+						label: "Calcium",
+						value: 20,
+					},
+					{
+						id: 13,
+						label: "Vitamin C",
+						value: 10,
+					},
+					{
+						id: 14,
+						label: "Iron",
+						value: 5,
+					},
+				],
 			},
 			{
 				id: "3",
@@ -407,7 +1137,80 @@ export const productsData = [
 						icon: "water",
 					},
 				],
-				nutritionalInfo: ["very nutritious"],
+				nutritionalInfo: [
+					{
+						id: 1,
+						label: "Calories",
+						value: 130,
+					},
+					{
+						id: 2,
+						label: "Total Fat",
+						value: 12,
+					},
+					{
+						id: 3,
+						label: "Saturated Fat",
+						value: 3,
+					},
+					{
+						id: 4,
+						label: "Trans Fat",
+						value: 0,
+					},
+					{
+						id: 5,
+						label: "Cholesterol",
+						value: 0,
+					},
+					{
+						id: 6,
+						label: "Sodium",
+						value: 5,
+					},
+					{
+						id: 7,
+						label: "Total Carbohydrate",
+						value: 20,
+					},
+
+					{
+						id: 8,
+						label: "Dietary Fiber",
+						value: 7,
+					},
+
+					{
+						id: 9,
+						label: "Sugars",
+						value: 4,
+					},
+					{
+						id: 10,
+						label: "Protein",
+						value: 11,
+					},
+					{
+						id: 11,
+						label: "Vitamin A",
+						value: 10,
+					},
+					{
+						id: 12,
+						label: "Calcium",
+						value: 20,
+					},
+					{
+						id: 13,
+						label: "Vitamin C",
+						value: 10,
+					},
+					{
+						id: 14,
+						label: "Iron",
+						value: 5,
+					},
+				],
 			},
 			{
 				id: "4",
@@ -437,7 +1240,80 @@ export const productsData = [
 						icon: "water",
 					},
 				],
-				nutritionalInfo: ["very nutritious"],
+				nutritionalInfo: [
+					{
+						id: 1,
+						label: "Calories",
+						value: 130,
+					},
+					{
+						id: 2,
+						label: "Total Fat",
+						value: 12,
+					},
+					{
+						id: 3,
+						label: "Saturated Fat",
+						value: 3,
+					},
+					{
+						id: 4,
+						label: "Trans Fat",
+						value: 0,
+					},
+					{
+						id: 5,
+						label: "Cholesterol",
+						value: 0,
+					},
+					{
+						id: 6,
+						label: "Sodium",
+						value: 5,
+					},
+					{
+						id: 7,
+						label: "Total Carbohydrate",
+						value: 20,
+					},
+
+					{
+						id: 8,
+						label: "Dietary Fiber",
+						value: 7,
+					},
+
+					{
+						id: 9,
+						label: "Sugars",
+						value: 4,
+					},
+					{
+						id: 10,
+						label: "Protein",
+						value: 11,
+					},
+					{
+						id: 11,
+						label: "Vitamin A",
+						value: 10,
+					},
+					{
+						id: 12,
+						label: "Calcium",
+						value: 20,
+					},
+					{
+						id: 13,
+						label: "Vitamin C",
+						value: 10,
+					},
+					{
+						id: 14,
+						label: "Iron",
+						value: 5,
+					},
+				],
 			},
 		],
 	},

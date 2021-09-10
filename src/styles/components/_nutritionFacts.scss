@@ -1,5 +1,5 @@
 //https://codepen.io/chriscoyier/pen/egHEK
-.nutritionalInfo{
+.nutrition-facts{
 	body {
 		font-size: small;
 		line-height: 1;
@@ -27,6 +27,7 @@
 	margin: 0 0 0.5rem 0;
 	p {
 		margin: 0;
+		font-size: .7rem;
 	}
 }
 .performance-facts__table {

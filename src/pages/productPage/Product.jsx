@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import List from "../../components/List";
 import Ingredient from "./Ingredient";
 import NutritionFacts from "./NutritionFacts";
@@ -22,9 +22,9 @@ export default function Product({ product }) {
 
 				<List list={ingredientList} Component={Ingredient} />
 			</div>
-			<section className="nutritionalInfo">
+			<section className="nutrition-facts">
 				<h2 className="oleo">Nutritional Information</h2>
-				<NutritionFacts />
+				<NutritionFacts nutritionalInfo={nutritionalInfo} />
 			</section>
 		</section>
 	);
