@@ -12,7 +12,6 @@
 	ul,
 	.text-box,
 	.hours,
-	.booking,
 	.address {
 		width: 80%;
 		display: grid;
@@ -24,36 +23,37 @@
 		width: 90%;
 		margin: 1rem;
 	}
-}
 
-.booking {
-	grid-gap: 0.5rem;
-	grid-template-areas:
-		"title title"
-		"name name"
-		"email email"
-		"phone people"
-		"date time"
-		"button button";
-	h2 {
-		grid-area: title;
+	.booking {
+		width: 80%;
+		margin: 1rem auto;
+        display: grid;
 	}
-	.name {
-		grid-area: name;
+	.fields {
+		margin: auto;
+		margin-top: 1rem;
+        display: grid;
+        row-gap: .8rem;
+        column-gap: 1rem;
+		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 	}
-	.email {
-		grid-area: email;
-	}
-	.phone {
-		grid-area: phone;
-	}
-	.nrOfPeople {
-		grid-area: people;
-	}
-	.string {
-		grid-area: time;
-	}
+    form{
+        margin-bottom:2rem;
+    }
 	.btn-primary {
-		grid-area: button;
+		width: 60%;
+		margin: 0 auto;
+	}
+	input {
+		width: 90%;
+		background-color: rgba(0, 0, 0, 0.04);
+		border: 2px solid transparent;
+		outline: 0;
+		font-size: 1.2rem;
+		padding: 0.6rem;
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+		text-size-adjust: 100%;
+		margin: 0.2rem;
 	}
 }

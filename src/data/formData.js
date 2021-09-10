@@ -16,7 +16,7 @@ export const formData = {
 	phone: {
 		autofocus: false,
 		autocomplete: "on",
-		placeholder: "phone",
+		placeholder: "Phone",
 		type: "number",
 		name: "phone",
 	},
@@ -31,6 +31,13 @@ export const formData = {
 		autofocus: false,
 		autocomplete: "on",
 		placeholder: "Time",
+		type: "text",
+		name: "string",
+	},
+	date: {
+		autofocus: false,
+		autocomplete: "on",
+		placeholder: "Date",
 		type: "text",
 		name: "string",
 	},

@@ -11,11 +11,11 @@ export const restaurant = {
 	adress: [
 		{
 			id: "Street",
-			value: "Hornsbergstrand 111",
+			value: "Hornsbergstrand 35",
 		},
 		{
 			id: "Postal Code",
-			value: "166 666 Kungsholmen",
+			value: "112 16 Kungsholmen",
 		},
 		{
 			id: "City",
@@ -26,7 +26,6 @@ export const restaurant = {
 			value: "Sweden",
 		},
 	],
-	map: {},
 	links: [
 		{ id: 1, icon: "facebook.svg", link: "https://www.facebook.com/purezza/" },
 		{

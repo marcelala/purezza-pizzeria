@@ -9,13 +9,18 @@ export default function BookingForm() {
 	const [phone, setPhone] = useState("");
 	const [nrPeople, setNrPeople] = useState("");
 	const [time, setTime] = useState("");
+	const [date, setDate] = useState("");
+
 	return (
 		<form>
-			<Input hook={[name, setName]} settings={formData.name} />
-			<Input hook={[email, setEmail]} settings={formData.email} />
-			<Input hook={[phone, setPhone]} settings={formData.phone} />
-			<Input hook={[nrPeople, setNrPeople]} settings={formData.nrPeople} />
-			<Input hook={[time, setTime]} settings={formData.time} />
+			<div className="fields">
+				<Input hook={[name, setName]} settings={formData.name} />
+				<Input hook={[email, setEmail]} settings={formData.email} />
+				<Input hook={[phone, setPhone]} settings={formData.phone} />
+				<Input hook={[nrPeople, setNrPeople]} settings={formData.nrPeople} />
+				<Input hook={[time, setTime]} settings={formData.time} />
+				<Input hook={[date, setDate]} settings={formData.date} />
+			</div>
 		</form>
 	);
 }

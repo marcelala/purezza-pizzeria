@@ -4,6 +4,7 @@ import { restaurant } from "../../data/restaurantData";
 import Button from "../../components/Button";
 import BookingForm from "./BookingForm";
 import contactImg from "../../assets/img/contact.jpeg";
+import map from "../../assets/img/map.png";
 
 export default function Contact() {
 	const hours = restaurant.openingHours;
@@ -51,6 +52,7 @@ export default function Contact() {
 				<h2 className="oleo">Address</h2>
 
 				<ul>{fullAddress}</ul>
+				<img src={map} alt="man putting a pizza in wood oven" />
 			</div>
 		</section>
 	);
