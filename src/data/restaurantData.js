@@ -1,15 +1,30 @@
 export const restaurant = {
 	name: "purezza",
 	openingHours: [
-		{Weekdays : "11h - 23h"},
-		{Saturday: "12h - 24h"},
-		{Sunday: "12h- 16h"},
+		{
+			id: "Weekdays",
+			hours: "11h - 23h",
+		},
+		{ id: "Saturday", hours: "12h - 24h" },
+		{ id: "Sunday", hours: "12h- 16h" },
 	],
 	adress: [
-		"Adress: Hornsbergstrand 111",
-		"Postal Code: 166 666 Kungsholmen",
-		"City: Stockholm",
-		"Country: Sweden",
+		{
+			id: "Street",
+			value: "Hornsbergstrand 111",
+		},
+		{
+			id: "Postal Code",
+			value: "166 666 Kungsholmen",
+		},
+		{
+			id: "City",
+			value: "Stockholm",
+		},
+		{
+			id: "Country",
+			value: "Sweden",
+		},
 	],
 	map: {},
 	links: [

@@ -1,13 +1,24 @@
 import React from "react";
+//project files
 import { restaurant } from "../../data/restaurantData";
-import List from "../../components/List";
-import BulletItem from "../../components/BulletItem";
+import Button from "../../components/Button";
 import BookingForm from "./BookingForm";
 import contactImg from "../../assets/img/contact.jpeg";
 
 export default function Contact() {
 	const hours = restaurant.openingHours;
 	const address = restaurant.adress;
+
+	const openingHours = hours.map((item) => (
+		<li key={item.id}>
+			{item.id}: {item.hours}
+		</li>
+	));
+	const fullAddress = address.map((item) => (
+		<li key={item.id}>
+			{item.id}: {item.value}
+		</li>
+	));
 
 	return (
 		<section className="contact">
@@ -21,16 +32,25 @@ export default function Contact() {
 			</div>
 			<div className="hours">
 				<h2 className="oleo">Opening Hours</h2>
-				<List list={hours} Component={BulletItem} />
+				<ul>{openingHours}</ul>
 			</div>
 			<section className="booking">
 				<h2 className="oleo">Booking</h2>
 				<BookingForm />
+				<Button
+					theme={"primary"}
+					onClick={() =>
+						alert(
+							"Oh no, looks like this form is out of order.Please send an email instead. Sorry for the inconvenience!"
+						)
+					}>
+					Book a table
+				</Button>
 			</section>
 			<div className="address">
 				<h2 className="oleo">Address</h2>
 
-				<List list={address} Component={BulletItem} />
+				<ul>{fullAddress}</ul>
 			</div>
 		</section>
 	);

@@ -30,7 +30,9 @@ export default function ProductPage() {
 	return (
 		<section className="product-details">
 			<Product key={product.id} product={product} />
-			<Button onClick={() => history.goBack()} theme={"primary"}>Return to {category}</Button>
+			<Button onClick={() => history.goBack()} theme={"primary"}>
+				Return to {category}
+			</Button>
 		</section>
 	);
 }
