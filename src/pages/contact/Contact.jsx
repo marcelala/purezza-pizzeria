@@ -9,7 +9,7 @@ export default function Contact() {
 	const address = restaurant.adress;
 
 	return (
-		<section classnName="contact">
+		<section className="contact">
 			<div className="text-box">
 				<div className="title">
 					<h2 className="oleo">Get in</h2>

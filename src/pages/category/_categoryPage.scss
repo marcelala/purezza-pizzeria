@@ -2,29 +2,45 @@
 .drinks,
 .desserts {
 	margin: auto;
-
-	ul, .category-card .text-box{
+	button {
+		background-color: transparent;
+		border: none;
+	}
+	ul,
+	.category-card .text-box {
 		width: 80%;
-		grid-template-columns: repeat(auto-fit, minmax(px, 1fr));
+		display: grid;
 		margin: 1rem auto;
-		.category-description{
+		.category-description {
 			margin: 2rem auto;
 		}
-		.category-subtitle{
+		.category-subtitle {
 			display: none;
 		}
 	}
-
+	ul {
+		display: grid;
+		grid-gap: 2rem;
+	}
 	.product-card {
 		button {
+			background: transparent;
+			transition: all 0.25s;
+			box-shadow: 0 4px 4px rgb(30 30 100 / 25%);
+			border-radius: 2px;
 			overflow: hidden;
+			width: 100%;
+			height: auto;
+			cursor: pointer;
 			@include cardGrid();
-			img {
-				width: 100%;
+			img{
+							box-shadow: 0 4px 4px rgb(30 30 100 / 25%);
+
 			}
 			.text-box {
 				width: 100%;
 				margin: 0;
+				height: auto;
 			}
 		}
 		.product-name {
@@ -34,13 +50,6 @@
 			text-transform: uppercase;
 			font-weight: 700;
 		}
-		.text-box {
-			margin: 0;
-		}
-	}
-	button {
-		border-color: transparent;
-		background: transparent;
 	}
 	h2,
 	h1,

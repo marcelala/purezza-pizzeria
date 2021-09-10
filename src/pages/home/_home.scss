@@ -41,7 +41,6 @@
 	}
 }
 .categories {
-
 	h2,
 	h1,
 	p {
@@ -67,10 +66,14 @@
 			grid-gap: 0;
 			align-content: center;
 			overflow: hidden;
-		border-color: transparent;
-		background: transparent;
-		}
+			border-color: transparent;
+			background: transparent;
 
+			li:nth-child(odd) {
+				grid-template-areas:
+				"textimage";
+			}
+		}
 		img {
 			object-fit: cover;
 			width: 100%;
@@ -79,7 +82,6 @@
 		}
 
 		.text-box {
-			grid-template-areas: text;
 			justify-items: center;
 			align-items: center;
 			width: 100%;
