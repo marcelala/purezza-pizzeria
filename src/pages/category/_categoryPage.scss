@@ -1,17 +1,40 @@
 .pizzas,
 .drinks,
 .desserts {
-	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 	margin: auto;
-	article {
 
-		.product-card {
+	ul, .category-card .text-box{
+		width: 80%;
+		grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+		margin: 1rem auto;
+		.category-description{
+			margin: 2rem auto;
+		}
+		.category-subtitle{
+			display: none;
+		}
+	}
+
+	.product-card {
+		button {
 			overflow: hidden;
 			@include cardGrid();
-			img,
-			.text-box {
-				max-width: 100vw;
+			img {
+				width: 100%;
 			}
+			.text-box {
+				width: 100%;
+			}
+		}
+		.product-name {
+			padding: 1rem;
+			padding-top: 0rem;
+			font-family: $exo;
+			text-transform: uppercase;
+			font-weight: 700;
+		}
+		.text-box {
+			margin: 0;
 		}
 	}
 	button {
@@ -32,9 +55,9 @@
 		text-transform: uppercase;
 		font-weight: 900;
 	}
-	.product-name {
-		padding: 2rem;
-		font-family: $exo;
-		text-transform: uppercase;
+	h3 {
+		padding-left: 1rem;
+		font-family: $oleo;
+		text-align: left;
 	}
 }

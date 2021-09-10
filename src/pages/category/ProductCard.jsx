@@ -9,10 +9,11 @@ export default function ProductCard({ item }) {
 	const url = `../../${category}/${id}`;
 	return (
 		<li>
-			<article>
-				<button className="product-card" onClick={() => history.push(url)}>
+			<article className="product-card">
+				<button onClick={() => history.push(url)}>
 					<img className="product-img" src={imageSrc} alt="delicious food" />
 					<div className="text-box">
+						<h3 className="product-the">The</h3>
 						<h2 className="product-name">{name}</h2>
 						<p className="category-short-description">{shortDescription}</p>
 					</div>
