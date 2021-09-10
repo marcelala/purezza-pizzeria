@@ -16,7 +16,11 @@ export default function Product({ product }) {
 				</div>
 				<p>{fullDescription}</p>
 			</div>
-			<List list={ingredientList} Component={Ingredient} />
+			<div className="ingredients">
+				<h2 className="oleo">Ingredient list</h2>
+
+				<List list={ingredientList} Component={Ingredient} />
+			</div>
 		</div>
 	);
 }

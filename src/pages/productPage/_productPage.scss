@@ -1,14 +1,13 @@
 .product-details {
-    display:grid;
-    justify-content: center;
-		align-content: center;
-		justify-items: center;
-		align-items: center;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	justify-items: center;
+	align-items: center;
 
 	.product {
 		width: 100%;
 		display: grid;
-		
 		overflow: hidden;
 		img {
 			object-fit: cover;
@@ -17,7 +16,8 @@
 			overflow: hidden;
 		}
 
-		.text-box {
+		.text-box,
+		.ingredients {
 			justify-items: center;
 			align-items: center;
 			width: 100%;
@@ -26,6 +26,14 @@
 			margin: 0;
 		}
 
+        .ingredients{
+            ul {
+				list-style: georgian important!;
+				list-style-position: inside important!;
+			}
+        }
+
+        
 		h2,
 		h1,
 		p {
