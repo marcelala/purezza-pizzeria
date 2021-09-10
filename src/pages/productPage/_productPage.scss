@@ -7,7 +7,6 @@
 
 	.product {
 		width: 100%;
-		display: grid;
 		overflow: hidden;
 		img {
 			object-fit: cover;
@@ -18,7 +17,7 @@
 
 		.text-box,
 		.ingredients,
-		.nutrition-facts{
+		.nutrition-facts {
 			justify-items: center;
 			align-items: center;
 			width: 100%;

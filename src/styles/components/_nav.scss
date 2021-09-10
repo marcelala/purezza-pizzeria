@@ -8,20 +8,10 @@
 	position: fixed;
 	overflow: hidden;
 	z-index: 9999;
-
-	.logo-container {
-		align-items: center;
-		text-align: center;
-		display: none;
 		@include respond(phone-large) {
-			display: none;
-			.logo-mobile {
-				height: 2.6rem;
-				width: auto;
-				margin: 0 2rem;
-			}
+			height: 2rem;
 		}
-	}
+
 	.logo {
 		height: 2.6rem;
 		width: auto;
@@ -32,23 +22,27 @@
 	}
 	ul {
 		height: 100%;
-		width: 100%;
+		width: 90%;
 		display: grid;
-		justify-content: space-evenly;
+		margin: 0rem;
+		column-gap: 0rem;
 		justify-items: end;
+		grid-column-gap: 2rem;
+		justify-content: center;
 		align-content: center;
 		align-items: center;
-		margin: 0rem;
-		grid-template-columns:  max-content repeat(5, 15%);
+		grid-template-columns:  max-content repeat(5, 10%);
 		@include respond(phone-large) {
-			margin: auto;
+							justify-content: space-around;
+
+
 		}
 	}
 	li {
-		font-size: 1rem;
+		font-size: .9rem;
 		justify-self: center;
 		color: $white;
-		display: block;
+		display: inline-block;
 		@include respond(phone-large) {
 			font-size: 0.7rem;
 		}
