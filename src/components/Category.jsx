@@ -9,18 +9,16 @@ export default function Category({ item }) {
 	const imageSrc = require(`../assets/img/categories/${img}`).default;
 	const path = useLocation().pathname;
 	return (
-		<button key={id}>
-			<div className="category-card">
-				<div className="category-image">
-					<img src={imageSrc} alt="delicious food" />
-				</div>
+		<article className="category-card">
+			<button key={id}>
+				<img src={imageSrc} alt="delicious food" />
 				<div className="text-box">
 					<h2 className="category-subtitle">{subtitle}</h2>
 					<h1 className="category-name">{categoryTitle}</h1>
-					<p className="category-name">{description}</p>
+					<p className="category-description">{description}</p>
 				</div>
-			</div>
-			{path !== "/" && <List list={products} Component={ProductCard} />}
-		</button>
+				{path !== "/" && <List list={products} Component={ProductCard} />}
+			</button>
+		</article>
 	);
 }

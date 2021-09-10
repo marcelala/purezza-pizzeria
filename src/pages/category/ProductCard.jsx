@@ -13,7 +13,7 @@ export default function ProductCard({ item}) {
 				<div onClick={() => history.push(url)}>
 					<img className="product-img" src={imageSrc} alt="delicious food" />
 					<h2 className="product-name">{name}</h2>
-					<p className="category-name">{shortDescription}</p>
+					<p className="category-short-description">{shortDescription}</p>
 				</div>
 			</article>
 		</li>

@@ -1,0 +1,32 @@
+.pizzas,
+.desserts,
+.drinks {
+	button {
+		border-color: transparent;
+		background: transparent;
+	}
+	h2,
+	h1,
+	p {
+		text-align: left;
+	}
+	h2 {
+		font-family: $oleo;
+		color: $primary;
+	}
+	h1 {
+		font-family: $exo;
+		text-transform: uppercase;
+		font-weight: 900;
+	}
+	.category-card {
+		margin: 0 2rem;
+		max-width: 100vw;
+        overflow: hidden;
+	}
+	.product-name {
+		padding: 2rem;
+		font-family: $exo;
+		text-transform: uppercase;
+	}
+}
