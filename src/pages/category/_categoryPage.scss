@@ -10,6 +10,7 @@
 	.category-card .text-box {
 		width: 80%;
 		display: grid;
+
 		margin: 1rem auto;
 		.category-description {
 			margin: 2rem auto;
@@ -23,6 +24,8 @@
 		grid-gap: 2rem;
 	}
 	.product-card {
+				grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+
 		button {
 			background: transparent;
 			transition: all 0.25s;
