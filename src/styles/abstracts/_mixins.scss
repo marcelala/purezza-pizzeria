@@ -6,9 +6,27 @@
     1200px+ for large devices.
 */
 
-@mixin grid($columns) {
-	grid-template-columns: 1fr repeat($columns, auto);
-	grid-gap: 0 1rem;
+@mixin cardGrid() {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	grid-gap: 0;
+	align-content: center;
+	img {
+		object-fit: cover;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		padding: 0;
+		margin: 0;
+	}
+	.text-box {
+		justify-items: center;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+		padding: 2rem;
+		margin: auto 1rem;
+	}
 }
 
 @mixin after($content: "", $pos: absolute) {

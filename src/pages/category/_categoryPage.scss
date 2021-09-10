@@ -1,6 +1,19 @@
 .pizzas,
-.desserts,
-.drinks {
+.drinks,
+.desserts {
+	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+	margin: auto;
+	article {
+
+		.product-card {
+			overflow: hidden;
+			@include cardGrid();
+			img,
+			.text-box {
+				max-width: 100vw;
+			}
+		}
+	}
 	button {
 		border-color: transparent;
 		background: transparent;
@@ -18,11 +31,6 @@
 		font-family: $exo;
 		text-transform: uppercase;
 		font-weight: 900;
-	}
-	.category-card {
-		margin: 0 2rem;
-		max-width: 100vw;
-        overflow: hidden;
 	}
 	.product-name {
 		padding: 2rem;

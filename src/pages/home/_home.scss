@@ -69,6 +69,7 @@
 			grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 			grid-gap: 0;
 			align-content: center;
+			overflow: hidden;
 		}
 
 		img {
@@ -76,9 +77,6 @@
 			width: 100%;
 			height: 100%;
 			overflow: hidden;
-		}
-		.article:nth-child(even) {
-			grid-template-areas: "text" "image";
 		}
 
 		.text-box {
@@ -88,7 +86,7 @@
 			width: 100%;
 			height: 100%;
 			padding: 2rem;
-			margin: auto;
+			margin: auto 1rem;
 		}
 	}
 }
