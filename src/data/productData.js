@@ -1,6 +1,8 @@
 export const productsData = [
   {
     id: "cat-1",
+    title: "Pizzas",
+    key: "pizzas",
     categoryTitle: "Pizzas",
     subtitle: "Planet Saving",
     img: "pizzas.png",
@@ -451,6 +453,8 @@ export const productsData = [
   },
   {
     id: "cat-2",
+    title: "Desserts",
+    key: "desserts",
     categoryTitle: "Desserts",
     subtitle: "Inclusive",
     img: "desserts.png",
@@ -907,6 +911,8 @@ export const productsData = [
   },
   {
     id: "cat-3",
+    title: "Drinks",
+    key: "drinks",
     categoryTitle: "Drinks",
     subtitle: "Classic cuisine inovated",
     img: "drinks.png",

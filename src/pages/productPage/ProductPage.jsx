@@ -11,8 +11,7 @@ export default function ProductPage() {
   const categoryURL = url.category; // renamed to avoid conflict with the category below
   const productId = url.id.toLowerCase();
 
-  const category = data.filter((item) => item.categoryTitle === categoryURL);
-  console.log(category);
+  const category = data.filter((item) => item.key === categoryURL);
   const products = category[0].products;
   const product = products.filter((item) => item.id === productId)[0];
 
@@ -33,4 +32,6 @@ export default function ProductPage() {
 // To further make your code cleaner drop the .toLowerCase. This is nothing that the user can write manually, thus can mess it up
 // like in the todo list. So is not neccesary at all.
 
-// :ook how i moved from 2 functins with 15+ lines of code to just 3!!! 😎 (bragging emoji) 🧑🏽‍🏫 (teaching emoji)
+// Check your json, i aded some keys for your webspage title and for the computer to undestand the current category url.
+
+// Look how i moved from 2 functins with 15+ lines of code to just 3!!! 😎 (bragging emoji) 🧑🏽‍🏫 (teaching emoji)
