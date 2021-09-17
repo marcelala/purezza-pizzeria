@@ -1,81 +1,83 @@
 .pizzas,
 .drinks,
 .desserts {
-	margin: auto;
-	.category-card img {
-		width: 100%;
-		object-fit: cover;
-		max-height: 500px;
+	.category-card {
+		display: grid;
+		justify-items: center;
+		.text-box {
+			padding: 0 $space-large;
+			display: grid;
+			justify-content: center;
+			max-width: 1024px;
+			margin: $space-medium auto;
+			row-gap: $space-large;
+			column-gap: $space-large;
+			.category-subtitle,
+			.btn {
+				display: none;
+			}
+		}
+		img {
+			width: 100%;
+			height: auto;
+			object-fit: cover;
+			overflow: hidden;
+			max-height: 500px;
+			position: relative;
+			max-width: 1024px;
+			margin-top: 2rem;
+			padding: 0 auto;
+		}
 	}
-	.category-card .category-description{
-		margin: $space-medium auto;
-	}
-	ul,
-	.category-card .text-box {
-		padding: 0 $space-medium;
+
+	ul {
+		padding: 0 $space-large;
 		display: grid;
 		justify-content: center;
 		max-width: 80%;
-		margin: $space-small auto;
-		.category-subtitle, .btn {
-			display: none;
-		}
-	}
-	ul {
+		margin: $space-x-large auto;
 		row-gap: $space-large;
 		column-gap: $space-large;
-		margin: $space-x-large auto;
-		@include respond(big-desktop){
-		grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+	}
+}
+.product-card {
+	grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+	button {
+		background: transparent;
+		border-color: transparent;
+		transition: all 0.25s;
+		box-shadow: 0 4px 4px rgb(30 30 100 / 25%);
+		border-radius: 2px;
+		overflow: hidden;
+		width: 100%;
+		height: auto;
+		cursor: pointer;
+		align-items: center;
+
+		@include cardGrid();
+		img {
+			box-shadow: 0 4px 4px rgb(30 30 100 / 25%);
+			max-height: 100%;
+			max-width: 100%;
+		}
+		.text-box {
+			width: 100%;
+			margin: 0;
+			height: auto;
+			max-height: 100%;
+			max-width: 100%;
+			overflow: hidden;
 		}
 	}
-	.product-card {
-		grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-		button {
-			background: transparent;
-			border-color: transparent;
-			transition: all 0.25s;
-			box-shadow: 0 4px 4px rgb(30 30 100 / 25%);
-			border-radius: 2px;
-			overflow: hidden;
-			width: 100%;
-			height: auto;
-			cursor: pointer;
-			align-items: center;
-
-
-			@include respond(big-desktop) {
-				grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-				max-height: auto;
-				justify-content: center;
-				margin: 0;
-			}
-
-			@include cardGrid();
-			img {
-				box-shadow: 0 4px 4px rgb(30 30 100 / 25%);
-				max-height: 100%;
-				max-width: 100%;
-			}
-			.text-box {
-				width: 100%;
-				margin: 0;
-				height: auto;
-				max-height: 100%;
-				max-width: 100%;
-				overflow: hidden;
-			}
-		}
-		.product-name {
-			padding: 1rem auto;
-			padding-top: 0rem;
-			font-family: $exo;
-			text-transform: uppercase;
-			font-weight: 700;
-			margin-bottom: 1.5rem;
-		}
-		.product-the {
-			padding: 0;
-		}
+	.product-name {
+		padding: 1rem auto;
+		padding-top: 0rem;
+		font-family: $exo;
+		text-transform: uppercase;
+		font-weight: 700;
+		margin-bottom: 1.5rem;
+	}
+	.product-the {
+		padding: 0;
 	}
 }
