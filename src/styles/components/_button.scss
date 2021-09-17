@@ -16,4 +16,11 @@
 		background-color: $primary-transparent;
 		color: $primary;
 	}
+	&-secondary {
+		background-color: $white;
+		color: $primary;
+		border: 0.5px solid $primary;
+		padding: 0.5rem;
+		font-size: 0.8rem;
+	}
 }

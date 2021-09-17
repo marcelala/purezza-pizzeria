@@ -2,13 +2,16 @@
 	display: grid;
 	img {
 		width: 100%;
-		height: auto;
 		object-fit: cover;
 		overflow: hidden;
-		max-height: 450px;
+		max-height: 500px;
 		position: relative;
 		margin-top: 2rem;
 	}
+			.text-box h1{
+					margin-bottom: 1rem;
+
+		}
 	ul,
 	.text-box,
 	.hours,

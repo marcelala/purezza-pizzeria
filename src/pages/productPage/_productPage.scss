@@ -1,23 +1,20 @@
 .product-details {
 	display: grid;
-	justify-content: center;
-	align-content: center;
-	justify-items: center;
-	align-items: center;
 
-	.product {
+	margin: auto;
+	img {
+		object-fit: cover;
 		width: 100%;
-		overflow: hidden;
+		max-height: 500px;
+	}
+	.product-info {
+		width: 80%;
 		display: grid;
-		img {
-			object-fit: cover;
-			width: 100%;
-			height: 100%;
-			overflow: hidden;
-			max-height: 450px;
-			position: relative;
-		}
-
+		justify-items: center;
+		align-content: center;
+		align-items: center;
+		justify-content: center;
+		margin: 0 auto;
 		.text-box,
 		.ingredients,
 		.nutrition-facts {
@@ -27,6 +24,9 @@
 			height: 100%;
 			padding: 1rem 2rem;
 			margin: 0;
+		}
+		.text-box h1 {
+			margin-bottom: 1rem;
 		}
 
 		.ingredients {

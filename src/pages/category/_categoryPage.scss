@@ -2,24 +2,23 @@
 .drinks,
 .desserts {
 	margin: auto;
-	button {
-		background-color: transparent;
-		border: none;
-	}
 	.category-card img {
-		max-height: 400px;
-		margin-top: 1.7rem;
+		width: 100%;
+		object-fit: cover;
+		max-height: 500px;
 	}
 	ul,
 	.category-card .text-box {
 		width: 80%;
 		display: grid;
-
 		margin: 1rem auto;
 		.category-description {
 			margin: 2rem auto;
 		}
 		.category-subtitle {
+			display: none;
+		}
+		.btn{
 			display: none;
 		}
 	}
@@ -35,6 +34,7 @@
 		margin:0;
 		button {
 			background: transparent;
+			border-color: transparent;
 			transition: all 0.25s;
 			box-shadow: 0 4px 4px rgb(30 30 100 / 25%);
 			border-radius: 2px;

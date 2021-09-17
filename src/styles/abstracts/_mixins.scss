@@ -1,11 +1,3 @@
-/* MEDIA QUERY BREAKPOINTS
-    0-576px for portrait phones.
-    577-768px for tablets in portrait mode.
-    769-991 for tablets in landcape mode.
-    992-1200px for laptops.
-    1200px+ for large devices.
-*/
-
 @mixin cardGrid() {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -39,10 +31,10 @@
 }
 
 @mixin hover-lift() {
-	box-shadow: 0em 0.3em 0.5em 0em rgba(black, 0.2);
+	//box-shadow: 0em 0.3em 0.5em 0em rgba(black, 0.2);
 	transition: transform 250ms ease-in-out;
 	@include after() {
-		box-shadow: 0em 0em 1.25em 0em rgba(black, 0.4);
+		//box-shadow: 0em 0em 1.25em 0em rgba(black, 0.4);
 		transition: transform 250ms ease-in-out;
 		opacity: 0;
 	}
