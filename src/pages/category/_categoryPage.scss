@@ -7,31 +7,30 @@
 		object-fit: cover;
 		max-height: 500px;
 	}
+	.category-card .category-description{
+		margin: $space-medium auto;
+	}
 	ul,
 	.category-card .text-box {
-		width: 80%;
+		padding: 0 $space-medium;
 		display: grid;
-		margin: 1rem auto;
-		.category-description {
-			margin: 2rem auto;
-		}
-		.category-subtitle {
-			display: none;
-		}
-		.btn{
+		justify-content: center;
+		max-width: 80%;
+		margin: $space-small auto;
+		.category-subtitle, .btn {
 			display: none;
 		}
 	}
 	ul {
-		display: grid;
-		grid-gap: 2rem;
+		row-gap: $space-large;
+		column-gap: $space-large;
+		margin: $space-x-large auto;
 		@include respond(big-desktop){
 		grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
 		}
 	}
 	.product-card {
 		grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-		margin:0;
 		button {
 			background: transparent;
 			border-color: transparent;
@@ -47,7 +46,6 @@
 
 			@include respond(big-desktop) {
 				grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-				max-width: 600px;
 				max-height: auto;
 				justify-content: center;
 				margin: 0;

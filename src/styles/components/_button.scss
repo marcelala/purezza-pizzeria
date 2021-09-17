@@ -4,23 +4,23 @@
 	text-decoration: none;
 	border: 0;
 	font-weight: 400;
-	padding: 1rem 1.5rem;
 	justify-content: center;
 	align-items: center;
 	color: white;
 	text-transform: capitalize;
-	margin: 2rem;
+	margin: $space-small;
 	@include hover-lift;
 	border-radius: 2rem;
 	&-primary {
 		background-color: $primary-transparent;
 		color: $primary;
+		padding: $space-small;
 	}
 	&-secondary {
 		background-color: $white;
 		color: $primary;
 		border: 0.5px solid $primary;
-		padding: 0.5rem;
+		padding: $space-x-small;
 		font-size: 0.8rem;
 	}
 }

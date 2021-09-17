@@ -8,14 +8,12 @@
 	flex-direction: column;
 	margin: auto;
 	justify-content: center;
-	margin-top: 2rem;
-
+	padding: $space-medium;
 	ul {
 		display: flex;
 		justify-content: center;
-		margin: auto;
 		li {
-			padding: 1rem;
+			padding: $space-x-small;
 		}
 	}
 	p {

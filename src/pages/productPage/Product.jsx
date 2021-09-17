@@ -18,10 +18,10 @@ export default function Product({ product }) {
 					</div>
 					<p>{fullDescription}</p>
 				</div>
-				<div className="ingredients">
+				<section className="ingredients">
 					<h2 className="oleo">Ingredient list</h2>
 					<List list={ingredientList} Component={Ingredient} />
-				</div>
+				</section>
 				<section className="nutrition-facts">
 					<h2 className="oleo">Nutritional Information</h2>
 					<NutritionFacts nutritionalInfo={nutritionalInfo} />
