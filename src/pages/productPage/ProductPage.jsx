@@ -28,7 +28,7 @@ export default function ProductPage() {
 	const product = getProduct();
 
 	return (
-		<section className="product-details">
+		<section className="product-page">
 			<Product key={product.id} product={product} />
 			<Button onClick={() => history.goBack()} theme={"primary"}>
 				Return to {category}

@@ -5,13 +5,15 @@ $white: #fff;
 $dark: #1c1c1c;
 $primary-transparent: #f5e7e0e0;
 
-//fonts
+//FONTS
 
 $exo: "Exo 2", sans-serif;
 $roboto: "Roboto Mono", sans-serif;
 $oleo: "Oleo Script", sans-serif;
 
-//GRID VARIABLES
-$horizontal-gutter: 6rem;
-$vertical-gutter: 6rem;
-$vertical-gutter-small: 4rem;
+//SPACE VARIABLES
+$space-x-small: .5rem;
+$space-small: 1rem;
+$space-medium: 1.5rem;
+$space-large: 2rem;
+$space-x-large: 4rem;

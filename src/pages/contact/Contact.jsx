@@ -24,35 +24,37 @@ export default function Contact() {
 	return (
 		<section className="contact">
 			<img src={contactImg} alt="man putting a pizza in wood oven" />
-			<div className="text-box">
-				<div className="title">
-					<h2 className="oleo">Get in</h2>
-					<h1 className="exo">CONTACT</h1>
+			<div className="contact-content">
+				<div className="text-box">
+					<div className="title">
+						<h2 className="oleo">Get in</h2>
+						<h1 className="exo">CONTACT</h1>
+					</div>
+					<p>Drop us a line here… we look forward to hearing from you!</p>
 				</div>
-				<p>Drop us a line here… we look forward to hearing from you!</p>
-			</div>
-			<div className="hours">
-				<h2 className="oleo">Opening Hours</h2>
-				<ul>{openingHours}</ul>
-			</div>
-			<section className="booking">
-				<h2 className="oleo">Booking</h2>
-				<BookingForm />
-				<Button
-					theme={"primary"}
-					onClick={() =>
-						alert(
-							"Oh no, looks like this form is out of order.Please send an email instead. Sorry for the inconvenience!"
-						)
-					}>
-					Book a table
-				</Button>
-			</section>
-			<div className="address">
-				<h2 className="oleo">Address</h2>
+				<section className="hours">
+					<h2 className="oleo">Opening Hours</h2>
+					<ul>{openingHours}</ul>
+				</section>
+				<section className="booking">
+					<h2 className="oleo">Booking</h2>
+					<BookingForm />
+					<Button
+						theme={"primary"}
+						onClick={() =>
+							alert(
+								"Oh no, looks like this form is out of order.Please send an email instead. Sorry for the inconvenience!"
+							)
+						}>
+						Book a table
+					</Button>
+				</section>
+				<section className="address">
+					<h2 className="oleo">Address</h2>
 
-				<ul>{fullAddress}</ul>
-				<img src={map} alt="man putting a pizza in wood oven" />
+					<ul>{fullAddress}</ul>
+					<img src={map} alt="man putting a pizza in wood oven" />
+				</section>
 			</div>
 		</section>
 	);

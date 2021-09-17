@@ -2,39 +2,38 @@
 .drinks,
 .desserts {
 	margin: auto;
-	button {
-		background-color: transparent;
-		border: none;
-	}
 	.category-card img {
-		max-height: 400px;
-		margin-top: 1.7rem;
+		width: 100%;
+		object-fit: cover;
+		max-height: 500px;
+	}
+	.category-card .category-description{
+		margin: $space-medium auto;
 	}
 	ul,
 	.category-card .text-box {
-		width: 80%;
+		padding: 0 $space-medium;
 		display: grid;
-
-		margin: 1rem auto;
-		.category-description {
-			margin: 2rem auto;
-		}
-		.category-subtitle {
+		justify-content: center;
+		max-width: 80%;
+		margin: $space-small auto;
+		.category-subtitle, .btn {
 			display: none;
 		}
 	}
 	ul {
-		display: grid;
-		grid-gap: 2rem;
+		row-gap: $space-large;
+		column-gap: $space-large;
+		margin: $space-x-large auto;
 		@include respond(big-desktop){
 		grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
 		}
 	}
 	.product-card {
 		grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-		margin:0;
 		button {
 			background: transparent;
+			border-color: transparent;
 			transition: all 0.25s;
 			box-shadow: 0 4px 4px rgb(30 30 100 / 25%);
 			border-radius: 2px;
@@ -47,7 +46,6 @@
 
 			@include respond(big-desktop) {
 				grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-				max-width: 600px;
 				max-height: auto;
 				justify-content: center;
 				margin: 0;

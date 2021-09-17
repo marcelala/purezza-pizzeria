@@ -1127,12 +1127,12 @@ export const productsData = [
 						icon: "raspberries",
 					},
 					{
-						id: "ingredient-2",
+						id: "ingredient-3",
 						ingredient: "limes",
 						icon: "lime",
 					},
 					{
-						id: "ingredient-3",
+						id: "ingredient-4",
 						ingredient: "water",
 						icon: "water",
 					},
@@ -1235,7 +1235,7 @@ export const productsData = [
 						icon: "kale",
 					},
 					{
-						id: "ingredient-3",
+						id: "ingredient-4",
 						ingredient: "water",
 						icon: "water",
 					},

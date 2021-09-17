@@ -58,31 +58,43 @@
 	p {
 		margin: 1.3rem auto;
 	}
-
 	.category-card {
-		button {
-			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-			grid-gap: 0;
-			align-content: center;
-			overflow: hidden;
-			border-color: transparent;
-			background: transparent;
-		}
+		display: grid;
+		justify-items: center;
 		img {
 			object-fit: cover;
 			width: 100%;
-			height: 100%;
 			overflow: hidden;
 		}
-
 		.text-box {
 			justify-items: center;
 			align-items: center;
 			width: 100%;
 			height: 100%;
-			padding: 2rem;
-			margin: auto 1rem;
+			padding: $space-large;
+			padding: $space-x-large;
+		}
+	}
+	@media (min-width: 550px) {
+		/* This move to a horizontal layout */
+		.category-card {
+			display: flex;
+			flex-direction: row;
+			img,
+			.text-box {
+				width: 50%;
+			}
+			.text-box {
+				display: grid;
+				align-self: center;
+				justify-self: center;
+				margin: 0 auto;
+				max-width: 430px;
+			}
+		}
+		.category-card:nth-child(even) {
+			display: flex;
+			flex-direction: row-reverse;
 		}
 	}
 }
