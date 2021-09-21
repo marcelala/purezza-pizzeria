@@ -81,7 +81,7 @@ To run the project in the **development mode**, follow the instructions below:
 Download or clone the repository in your computer:
 
 ```
-$ git clone https://github.com/marcelala/react-portfolio.git
+$ git clone https://github.com/marcelala/purezza-pizzeria.git
 ```
 
 In the repository folder:
