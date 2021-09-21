@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 //project files
+import ScrollToTop from "./components/ScrollToTop";
 import Navigation from "./components/Navigation";
 import Home from "./pages/home/Home";
 import CategoryPage from "./pages/category/CategoryPage";
@@ -13,12 +14,14 @@ export default function App() {
 		<BrowserRouter>
 			<div className="App">
 				<Navigation />
+				<ScrollToTop>
 				<Switch>
 					<Route path="/" exact component={Home} />
 					<Route path="/contact" exact component={Contact} />
 					<Route path="/:category/" exact component={CategoryPage} />
 					<Route path="/:category/:id" exact component={ProductPage} />
 				</Switch>
+				</ScrollToTop>
 				<Footer />
 			</div>
 		</BrowserRouter>
